@@ -1,0 +1,1549 @@
+2018/12/13 19:53:11 [emerg] 29576#47724: invalid log level "Files" in C:\Program Files (x86)\Nginx/conf/nginx.conf:5
+2018/12/13 19:53:12 [emerg] 5864#42016: invalid log level "Files" in C:\Program Files (x86)\Nginx/conf/nginx.conf:5
+2018/12/13 19:53:15 [emerg] 49100#37260: invalid log level "Files" in C:\Program Files (x86)\Nginx/conf/nginx.conf:5
+2018/12/13 19:54:15 [notice] 47088#44056: using the "select" event method
+2018/12/13 19:54:15 [notice] 47088#44056: using the "select" event method
+2018/12/13 19:54:15 [notice] 47088#44056: nginx/1.15.7
+2018/12/13 19:54:15 [notice] 47088#44056: nginx/1.15.7
+2018/12/13 19:54:15 [info] 47088#44056: OS: 260200 build:9200, "", suite:100, type:1
+2018/12/13 19:54:15 [notice] 47088#44056: start worker processes
+2018/12/13 19:54:15 [notice] 47088#44056: start worker processes
+2018/12/13 19:54:15 [notice] 47088#44056: start worker process 41536
+2018/12/13 19:54:15 [notice] 47088#44056: start worker process 41536
+2018/12/13 19:54:15 [notice] 41536#15564: nginx/1.15.7
+2018/12/13 19:54:15 [notice] 41536#15564: nginx/1.15.7
+2018/12/13 19:54:15 [info] 41536#15564: OS: 260200 build:9200, "", suite:100, type:1
+2018/12/13 19:54:15 [notice] 41536#15564: create thread 44736
+2018/12/13 19:54:15 [notice] 41536#15564: create thread 44736
+2018/12/13 19:54:15 [notice] 41536#15564: create thread 46916
+2018/12/13 19:54:15 [notice] 41536#15564: create thread 46916
+2018/12/13 19:54:15 [notice] 41536#15564: create thread 45792
+2018/12/13 19:54:15 [notice] 41536#15564: create thread 45792
+2018/12/13 19:55:20 [notice] 15880#43188: using the "select" event method
+2018/12/13 19:55:20 [notice] 15880#43188: using the "select" event method
+2018/12/13 19:55:20 [notice] 15880#43188: nginx/1.15.7
+2018/12/13 19:55:20 [notice] 15880#43188: nginx/1.15.7
+2018/12/13 19:55:20 [info] 15880#43188: OS: 260200 build:9200, "", suite:100, type:1
+2018/12/13 19:55:20 [notice] 15880#43188: start worker processes
+2018/12/13 19:55:20 [notice] 15880#43188: start worker processes
+2018/12/13 19:55:20 [notice] 15880#43188: start worker process 31864
+2018/12/13 19:55:20 [notice] 15880#43188: start worker process 31864
+2018/12/13 19:55:20 [notice] 31864#18808: nginx/1.15.7
+2018/12/13 19:55:20 [notice] 31864#18808: nginx/1.15.7
+2018/12/13 19:55:20 [info] 31864#18808: OS: 260200 build:9200, "", suite:100, type:1
+2018/12/13 19:55:20 [notice] 31864#18808: create thread 24972
+2018/12/13 19:55:20 [notice] 31864#18808: create thread 24972
+2018/12/13 19:55:20 [notice] 31864#18808: create thread 9684
+2018/12/13 19:55:20 [notice] 31864#18808: create thread 9684
+2018/12/13 19:55:20 [notice] 31864#18808: create thread 45112
+2018/12/13 19:55:20 [notice] 31864#18808: create thread 45112
+2018/12/13 19:55:30 [info] 41536#44736: *2 client timed out (10060: FormatMessage() error:(1813)) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2018/12/13 19:55:56 [notice] 19824#23380: signal process started
+2018/12/13 19:55:56 [notice] 15880#43188: exiting
+2018/12/13 19:55:56 [notice] 15880#43188: exiting
+2018/12/13 19:55:56 [notice] 31864#18808: gracefully shutting down
+2018/12/13 19:55:56 [notice] 31864#18808: gracefully shutting down
+2018/12/13 19:55:56 [notice] 31864#9684: exiting
+2018/12/13 19:55:56 [notice] 31864#9684: exiting
+2018/12/13 19:55:56 [notice] 31864#24972: exiting
+2018/12/13 19:55:56 [notice] 31864#24972: exiting
+2018/12/13 19:55:56 [notice] 31864#18808: exit
+2018/12/13 19:55:56 [notice] 31864#18808: exit
+2018/12/13 19:55:56 [notice] 15880#43188: worker process 31864 exited with code 0
+2018/12/13 19:55:56 [notice] 15880#43188: worker process 31864 exited with code 0
+2018/12/13 19:55:56 [notice] 15880#43188: exit
+2018/12/13 19:55:56 [notice] 15880#43188: exit
+2018/12/13 19:55:59 [notice] 33184#38164: signal process started
+2018/12/13 19:55:59 [error] 33184#38164: CreateFile() "C:\Program Files (x86)\Nginx/logs/nginx.pid" failed (2: FormatMessage() error:(1813))
+2018/12/13 19:56:00 [notice] 52104#28592: signal process started
+2018/12/13 19:56:00 [error] 52104#28592: CreateFile() "C:\Program Files (x86)\Nginx/logs/nginx.pid" failed (2: FormatMessage() error:(1813))
+2018/12/13 19:56:01 [notice] 48256#45488: signal process started
+2018/12/13 19:56:01 [error] 48256#45488: CreateFile() "C:\Program Files (x86)\Nginx/logs/nginx.pid" failed (2: FormatMessage() error:(1813))
+2018/12/13 19:56:22 [notice] 1452#49828: signal process started
+2018/12/13 19:56:22 [error] 1452#49828: CreateFile() "C:\Program Files (x86)\Nginx/logs/nginx.pid" failed (2: FormatMessage() error:(1813))
+2018/12/13 19:56:37 [notice] 45192#18376: using the "select" event method
+2018/12/13 19:56:37 [notice] 45192#18376: using the "select" event method
+2018/12/13 19:56:37 [notice] 45192#18376: nginx/1.15.7
+2018/12/13 19:56:37 [notice] 45192#18376: nginx/1.15.7
+2018/12/13 19:56:37 [info] 45192#18376: OS: 260200 build:9200, "", suite:100, type:1
+2018/12/13 19:56:37 [notice] 45192#18376: start worker processes
+2018/12/13 19:56:37 [notice] 45192#18376: start worker processes
+2018/12/13 19:56:37 [notice] 45192#18376: start worker process 39428
+2018/12/13 19:56:37 [notice] 45192#18376: start worker process 39428
+2018/12/13 19:56:37 [notice] 39428#47300: nginx/1.15.7
+2018/12/13 19:56:37 [notice] 39428#47300: nginx/1.15.7
+2018/12/13 19:56:37 [info] 39428#47300: OS: 260200 build:9200, "", suite:100, type:1
+2018/12/13 19:56:37 [notice] 39428#47300: create thread 47492
+2018/12/13 19:56:37 [notice] 39428#47300: create thread 47492
+2018/12/13 19:56:37 [notice] 39428#47300: create thread 1896
+2018/12/13 19:56:37 [notice] 39428#47300: create thread 1896
+2018/12/13 19:56:37 [notice] 39428#47300: create thread 42360
+2018/12/13 19:56:37 [notice] 39428#47300: create thread 42360
+2018/12/13 19:56:42 [notice] 21728#34208: signal process started
+2018/12/13 19:56:42 [notice] 45192#18376: reconfiguring
+2018/12/13 19:56:42 [notice] 45192#18376: reconfiguring
+2018/12/13 19:56:42 [notice] 45192#18376: using the "select" event method
+2018/12/13 19:56:42 [notice] 45192#18376: using the "select" event method
+2018/12/13 19:56:42 [notice] 45192#18376: start worker processes
+2018/12/13 19:56:42 [notice] 45192#18376: start worker processes
+2018/12/13 19:56:42 [notice] 45192#18376: start worker process 38908
+2018/12/13 19:56:42 [notice] 45192#18376: start worker process 38908
+2018/12/13 19:56:43 [notice] 38908#51656: nginx/1.15.7
+2018/12/13 19:56:43 [notice] 38908#51656: nginx/1.15.7
+2018/12/13 19:56:43 [info] 38908#51656: OS: 260200 build:9200, "", suite:100, type:1
+2018/12/13 19:56:43 [notice] 38908#51656: create thread 14224
+2018/12/13 19:56:43 [notice] 39428#47300: gracefully shutting down
+2018/12/13 19:56:43 [notice] 38908#51656: create thread 14224
+2018/12/13 19:56:43 [notice] 39428#47300: gracefully shutting down
+2018/12/13 19:56:43 [notice] 39428#1896: exiting
+2018/12/13 19:56:43 [notice] 39428#1896: exiting
+2018/12/13 19:56:43 [notice] 38908#51656: create thread 18212
+2018/12/13 19:56:43 [notice] 38908#51656: create thread 18212
+2018/12/13 19:56:43 [notice] 38908#51656: create thread 14760
+2018/12/13 19:56:43 [notice] 38908#51656: create thread 14760
+2018/12/13 19:56:43 [notice] 39428#47492: exiting
+2018/12/13 19:56:43 [notice] 39428#47492: exiting
+2018/12/13 19:56:43 [notice] 39428#47300: exit
+2018/12/13 19:56:43 [notice] 39428#47300: exit
+2018/12/13 19:56:43 [notice] 45192#18376: worker process 39428 exited with code 0
+2018/12/13 19:56:43 [notice] 45192#18376: worker process 39428 exited with code 0
+2018/12/13 19:57:13 [info] 41536#44736: *4 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2018/12/13 19:58:29 [notice] 48812#34504: signal process started
+2018/12/13 19:58:29 [notice] 45192#18376: reconfiguring
+2018/12/13 19:58:29 [notice] 45192#18376: reconfiguring
+2018/12/13 19:58:29 [notice] 45192#18376: using the "select" event method
+2018/12/13 19:58:29 [notice] 45192#18376: using the "select" event method
+2018/12/13 19:58:29 [notice] 45192#18376: start worker processes
+2018/12/13 19:58:29 [notice] 45192#18376: start worker processes
+2018/12/13 19:58:29 [notice] 45192#18376: start worker process 49120
+2018/12/13 19:58:29 [notice] 45192#18376: start worker process 49120
+2018/12/13 19:58:29 [notice] 49120#30160: nginx/1.15.7
+2018/12/13 19:58:29 [notice] 49120#30160: nginx/1.15.7
+2018/12/13 19:58:29 [info] 49120#30160: OS: 260200 build:9200, "", suite:100, type:1
+2018/12/13 19:58:29 [notice] 38908#51656: gracefully shutting down
+2018/12/13 19:58:29 [notice] 49120#30160: create thread 33716
+2018/12/13 19:58:29 [notice] 38908#51656: gracefully shutting down
+2018/12/13 19:58:29 [notice] 49120#30160: create thread 33716
+2018/12/13 19:58:29 [notice] 38908#18212: exiting
+2018/12/13 19:58:29 [notice] 38908#18212: exiting
+2018/12/13 19:58:29 [notice] 49120#30160: create thread 41552
+2018/12/13 19:58:29 [notice] 49120#30160: create thread 41552
+2018/12/13 19:58:29 [notice] 49120#30160: create thread 28108
+2018/12/13 19:58:29 [notice] 49120#30160: create thread 28108
+2018/12/13 19:58:30 [notice] 38908#14224: exiting
+2018/12/13 19:58:30 [notice] 38908#14224: exiting
+2018/12/13 19:58:30 [notice] 38908#51656: exit
+2018/12/13 19:58:30 [notice] 38908#51656: exit
+2018/12/13 19:58:30 [notice] 45192#18376: worker process 38908 exited with code 0
+2018/12/13 19:58:30 [notice] 45192#18376: worker process 38908 exited with code 0
+2018/12/13 20:01:39 [error] 41536#44736: *5 CreateFile() "C:\Program Files (x86)\Nginx/html/favicon.ico" failed (2: FormatMessage() error:(1813)), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "golang.localhost", referrer: "http://golang.localhost/"
+2018/12/13 20:01:39 [error] 41536#44736: *5 CreateFile() "C:\Program Files (x86)\Nginx/html/favicon.ico" failed (2: FormatMessage() error:(1813)), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "golang.localhost", referrer: "http://golang.localhost/"
+2018/12/13 20:01:39 [error] 41536#44736: *5 CreateFile() "C:\Program Files (x86)\Nginx/html/favicon.ico" failed (2: FormatMessage() error:(1813)), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "golang.localhost", referrer: "http://golang.localhost/"
+2018/12/13 20:01:46 [error] 41536#44736: *7 CreateFile() "C:\Program Files (x86)\Nginx/html/favicon.ico" failed (2: FormatMessage() error:(1813)), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "asd.localhost", referrer: "http://asd.localhost/"
+2018/12/13 20:01:46 [error] 41536#44736: *7 CreateFile() "C:\Program Files (x86)\Nginx/html/favicon.ico" failed (2: FormatMessage() error:(1813)), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "asd.localhost", referrer: "http://asd.localhost/"
+2018/12/13 20:01:46 [error] 41536#44736: *7 CreateFile() "C:\Program Files (x86)\Nginx/html/favicon.ico" failed (2: FormatMessage() error:(1813)), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "asd.localhost", referrer: "http://asd.localhost/"
+2018/12/13 20:01:50 [emerg] 29556#41448: directive "listen" is not terminated by ";" in C:\Program Files (x86)\Nginx/conf/nginx.conf:39
+2018/12/13 20:01:51 [info] 41536#44736: *6 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2018/12/13 20:02:03 [emerg] 23636#21288: invalid parameter "server_name" in C:\Program Files (x86)\Nginx/conf/nginx.conf:37
+2018/12/13 20:02:04 [emerg] 48168#38456: invalid parameter "server_name" in C:\Program Files (x86)\Nginx/conf/nginx.conf:37
+2018/12/13 20:02:18 [notice] 12464#3488: signal process started
+2018/12/13 20:02:18 [notice] 45192#18376: reconfiguring
+2018/12/13 20:02:18 [notice] 45192#18376: reconfiguring
+2018/12/13 20:02:18 [notice] 45192#18376: using the "select" event method
+2018/12/13 20:02:18 [notice] 45192#18376: using the "select" event method
+2018/12/13 20:02:18 [notice] 45192#18376: start worker processes
+2018/12/13 20:02:18 [notice] 45192#18376: start worker processes
+2018/12/13 20:02:18 [notice] 45192#18376: start worker process 31684
+2018/12/13 20:02:18 [notice] 45192#18376: start worker process 31684
+2018/12/13 20:02:18 [notice] 31684#52496: nginx/1.15.7
+2018/12/13 20:02:18 [notice] 31684#52496: nginx/1.15.7
+2018/12/13 20:02:18 [info] 31684#52496: OS: 260200 build:9200, "", suite:100, type:1
+2018/12/13 20:02:18 [notice] 31684#52496: create thread 44156
+2018/12/13 20:02:18 [notice] 31684#52496: create thread 44156
+2018/12/13 20:02:18 [notice] 49120#30160: gracefully shutting down
+2018/12/13 20:02:18 [notice] 49120#30160: gracefully shutting down
+2018/12/13 20:02:18 [notice] 31684#52496: create thread 18932
+2018/12/13 20:02:18 [notice] 31684#52496: create thread 18932
+2018/12/13 20:02:18 [notice] 49120#41552: exiting
+2018/12/13 20:02:18 [notice] 49120#41552: exiting
+2018/12/13 20:02:18 [notice] 31684#52496: create thread 43180
+2018/12/13 20:02:18 [notice] 31684#52496: create thread 43180
+2018/12/13 20:02:18 [notice] 49120#33716: exiting
+2018/12/13 20:02:18 [notice] 49120#33716: exiting
+2018/12/13 20:02:18 [notice] 49120#30160: exit
+2018/12/13 20:02:18 [notice] 49120#30160: exit
+2018/12/13 20:02:18 [notice] 45192#18376: worker process 49120 exited with code 0
+2018/12/13 20:02:18 [notice] 45192#18376: worker process 49120 exited with code 0
+2018/12/13 20:02:21 [info] 41536#44736: *8 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2018/12/13 20:02:35 [notice] 49300#37568: signal process started
+2018/12/13 20:02:35 [notice] 45192#18376: reconfiguring
+2018/12/13 20:02:35 [notice] 45192#18376: reconfiguring
+2018/12/13 20:02:35 [notice] 45192#18376: using the "select" event method
+2018/12/13 20:02:35 [notice] 45192#18376: using the "select" event method
+2018/12/13 20:02:35 [notice] 45192#18376: start worker processes
+2018/12/13 20:02:35 [notice] 45192#18376: start worker processes
+2018/12/13 20:02:35 [notice] 45192#18376: start worker process 13472
+2018/12/13 20:02:35 [notice] 45192#18376: start worker process 13472
+2018/12/13 20:02:35 [notice] 13472#40808: nginx/1.15.7
+2018/12/13 20:02:35 [notice] 13472#40808: nginx/1.15.7
+2018/12/13 20:02:35 [info] 13472#40808: OS: 260200 build:9200, "", suite:100, type:1
+2018/12/13 20:02:35 [notice] 31684#52496: gracefully shutting down
+2018/12/13 20:02:35 [notice] 13472#40808: create thread 18272
+2018/12/13 20:02:35 [notice] 31684#52496: gracefully shutting down
+2018/12/13 20:02:35 [notice] 13472#40808: create thread 18272
+2018/12/13 20:02:35 [notice] 31684#18932: exiting
+2018/12/13 20:02:35 [notice] 31684#18932: exiting
+2018/12/13 20:02:35 [notice] 13472#40808: create thread 43828
+2018/12/13 20:02:35 [notice] 13472#40808: create thread 43828
+2018/12/13 20:02:35 [notice] 13472#40808: create thread 16476
+2018/12/13 20:02:35 [notice] 13472#40808: create thread 16476
+2018/12/13 20:02:36 [notice] 31684#44156: exiting
+2018/12/13 20:02:36 [notice] 31684#44156: exiting
+2018/12/13 20:02:36 [notice] 31684#52496: exit
+2018/12/13 20:02:36 [notice] 31684#52496: exit
+2018/12/13 20:02:36 [notice] 45192#18376: worker process 31684 exited with code 0
+2018/12/13 20:02:36 [notice] 45192#18376: worker process 31684 exited with code 0
+2018/12/13 20:03:21 [notice] 9056#36888: signal process started
+2018/12/13 20:03:21 [notice] 45192#18376: reconfiguring
+2018/12/13 20:03:21 [notice] 45192#18376: reconfiguring
+2018/12/13 20:03:21 [notice] 45192#18376: using the "select" event method
+2018/12/13 20:03:21 [notice] 45192#18376: using the "select" event method
+2018/12/13 20:03:21 [notice] 45192#18376: start worker processes
+2018/12/13 20:03:21 [notice] 45192#18376: start worker processes
+2018/12/13 20:03:21 [notice] 45192#18376: start worker process 36368
+2018/12/13 20:03:21 [notice] 45192#18376: start worker process 36368
+2018/12/13 20:03:21 [notice] 36368#6188: nginx/1.15.7
+2018/12/13 20:03:21 [notice] 36368#6188: nginx/1.15.7
+2018/12/13 20:03:21 [info] 36368#6188: OS: 260200 build:9200, "", suite:100, type:1
+2018/12/13 20:03:21 [notice] 13472#40808: gracefully shutting down
+2018/12/13 20:03:21 [notice] 36368#6188: create thread 37216
+2018/12/13 20:03:21 [notice] 13472#40808: gracefully shutting down
+2018/12/13 20:03:21 [notice] 13472#43828: exiting
+2018/12/13 20:03:21 [notice] 13472#43828: exiting
+2018/12/13 20:03:21 [notice] 36368#6188: create thread 37216
+2018/12/13 20:03:21 [notice] 36368#6188: create thread 3852
+2018/12/13 20:03:21 [notice] 36368#6188: create thread 3852
+2018/12/13 20:03:21 [notice] 36368#6188: create thread 47332
+2018/12/13 20:03:21 [notice] 36368#6188: create thread 47332
+2018/12/13 20:03:21 [notice] 13472#18272: exiting
+2018/12/13 20:03:21 [notice] 13472#18272: exiting
+2018/12/13 20:03:21 [notice] 13472#40808: exit
+2018/12/13 20:03:21 [notice] 13472#40808: exit
+2018/12/13 20:03:21 [notice] 45192#18376: worker process 13472 exited with code 0
+2018/12/13 20:03:21 [notice] 45192#18376: worker process 13472 exited with code 0
+2018/12/13 20:04:05 [notice] 19656#36748: using the "select" event method
+2018/12/13 20:04:05 [notice] 19656#36748: using the "select" event method
+2018/12/13 20:04:05 [notice] 19656#36748: nginx/1.15.7
+2018/12/13 20:04:05 [notice] 19656#36748: nginx/1.15.7
+2018/12/13 20:04:05 [info] 19656#36748: OS: 260200 build:9200, "", suite:100, type:1
+2018/12/13 20:04:05 [notice] 19656#36748: start worker processes
+2018/12/13 20:04:05 [notice] 19656#36748: start worker processes
+2018/12/13 20:04:05 [notice] 19656#36748: start worker process 9088
+2018/12/13 20:04:05 [notice] 19656#36748: start worker process 9088
+2018/12/13 20:04:05 [notice] 9088#39484: nginx/1.15.7
+2018/12/13 20:04:05 [notice] 9088#39484: nginx/1.15.7
+2018/12/13 20:04:05 [info] 9088#39484: OS: 260200 build:9200, "", suite:100, type:1
+2018/12/13 20:04:05 [notice] 9088#39484: create thread 39204
+2018/12/13 20:04:05 [notice] 9088#39484: create thread 39204
+2018/12/13 20:04:05 [notice] 9088#39484: create thread 9480
+2018/12/13 20:04:05 [notice] 9088#39484: create thread 9480
+2018/12/13 20:04:05 [notice] 9088#39484: create thread 3928
+2018/12/13 20:04:05 [notice] 9088#39484: create thread 3928
+2018/12/13 20:04:34 [notice] 35348#48760: signal process started
+2018/12/13 20:04:34 [notice] 19656#36748: reconfiguring
+2018/12/13 20:04:34 [notice] 19656#36748: reconfiguring
+2018/12/13 20:04:34 [notice] 19656#36748: using the "select" event method
+2018/12/13 20:04:34 [notice] 19656#36748: using the "select" event method
+2018/12/13 20:04:34 [notice] 19656#36748: start worker processes
+2018/12/13 20:04:34 [notice] 19656#36748: start worker processes
+2018/12/13 20:04:34 [notice] 19656#36748: start worker process 48496
+2018/12/13 20:04:34 [notice] 19656#36748: start worker process 48496
+2018/12/13 20:04:34 [notice] 48496#3100: nginx/1.15.7
+2018/12/13 20:04:34 [notice] 48496#3100: nginx/1.15.7
+2018/12/13 20:04:34 [info] 48496#3100: OS: 260200 build:9200, "", suite:100, type:1
+2018/12/13 20:04:34 [notice] 9088#39484: gracefully shutting down
+2018/12/13 20:04:34 [notice] 9088#39484: gracefully shutting down
+2018/12/13 20:04:34 [notice] 48496#3100: create thread 32120
+2018/12/13 20:04:34 [notice] 48496#3100: create thread 32120
+2018/12/13 20:04:34 [notice] 9088#9480: exiting
+2018/12/13 20:04:34 [notice] 9088#9480: exiting
+2018/12/13 20:04:34 [notice] 48496#3100: create thread 41040
+2018/12/13 20:04:34 [notice] 48496#3100: create thread 41040
+2018/12/13 20:04:34 [notice] 48496#3100: create thread 48872
+2018/12/13 20:04:34 [notice] 48496#3100: create thread 48872
+2018/12/13 20:04:34 [notice] 9088#39204: exiting
+2018/12/13 20:04:34 [notice] 9088#39204: exiting
+2018/12/13 20:04:34 [notice] 9088#39484: exit
+2018/12/13 20:04:34 [notice] 9088#39484: exit
+2018/12/13 20:04:34 [notice] 19656#36748: worker process 9088 exited with code 0
+2018/12/13 20:04:34 [notice] 19656#36748: worker process 9088 exited with code 0
+2018/12/13 20:04:43 [notice] 25420#34132: signal process started
+2018/12/13 20:04:43 [notice] 19656#36748: reconfiguring
+2018/12/13 20:04:43 [notice] 19656#36748: reconfiguring
+2018/12/13 20:04:43 [notice] 19656#36748: using the "select" event method
+2018/12/13 20:04:43 [notice] 19656#36748: using the "select" event method
+2018/12/13 20:04:43 [notice] 19656#36748: start worker processes
+2018/12/13 20:04:43 [notice] 19656#36748: start worker processes
+2018/12/13 20:04:43 [notice] 19656#36748: start worker process 11916
+2018/12/13 20:04:43 [notice] 19656#36748: start worker process 11916
+2018/12/13 20:04:43 [notice] 11916#21936: nginx/1.15.7
+2018/12/13 20:04:43 [notice] 11916#21936: nginx/1.15.7
+2018/12/13 20:04:43 [info] 11916#21936: OS: 260200 build:9200, "", suite:100, type:1
+2018/12/13 20:04:43 [notice] 48496#3100: gracefully shutting down
+2018/12/13 20:04:43 [notice] 48496#3100: gracefully shutting down
+2018/12/13 20:04:43 [notice] 11916#21936: create thread 36972
+2018/12/13 20:04:43 [notice] 11916#21936: create thread 36972
+2018/12/13 20:04:43 [notice] 48496#41040: exiting
+2018/12/13 20:04:43 [notice] 48496#41040: exiting
+2018/12/13 20:04:43 [notice] 11916#21936: create thread 23224
+2018/12/13 20:04:43 [notice] 11916#21936: create thread 23224
+2018/12/13 20:04:43 [notice] 11916#21936: create thread 38076
+2018/12/13 20:04:43 [notice] 11916#21936: create thread 38076
+2018/12/13 20:04:43 [notice] 48496#32120: exiting
+2018/12/13 20:04:43 [notice] 48496#32120: exiting
+2018/12/13 20:04:43 [notice] 48496#3100: exit
+2018/12/13 20:04:43 [notice] 48496#3100: exit
+2018/12/13 20:04:43 [notice] 19656#36748: worker process 48496 exited with code 0
+2018/12/13 20:04:43 [notice] 19656#36748: worker process 48496 exited with code 0
+2018/12/13 20:05:25 [info] 11916#36972: *4 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9000
+2018/12/13 20:05:38 [notice] 16900#16708: signal process started
+2018/12/13 20:05:38 [notice] 19656#36748: reconfiguring
+2018/12/13 20:05:38 [notice] 19656#36748: reconfiguring
+2018/12/13 20:05:38 [notice] 19656#36748: using the "select" event method
+2018/12/13 20:05:38 [notice] 19656#36748: using the "select" event method
+2018/12/13 20:05:38 [notice] 19656#36748: start worker processes
+2018/12/13 20:05:38 [notice] 19656#36748: start worker processes
+2018/12/13 20:05:38 [notice] 19656#36748: start worker process 1276
+2018/12/13 20:05:38 [notice] 19656#36748: start worker process 1276
+2018/12/13 20:05:38 [notice] 1276#37808: nginx/1.15.7
+2018/12/13 20:05:38 [notice] 1276#37808: nginx/1.15.7
+2018/12/13 20:05:38 [info] 1276#37808: OS: 260200 build:9200, "", suite:100, type:1
+2018/12/13 20:05:38 [notice] 1276#37808: create thread 17596
+2018/12/13 20:05:38 [notice] 11916#21936: gracefully shutting down
+2018/12/13 20:05:38 [notice] 1276#37808: create thread 17596
+2018/12/13 20:05:38 [notice] 11916#21936: gracefully shutting down
+2018/12/13 20:05:38 [notice] 11916#23224: exiting
+2018/12/13 20:05:38 [notice] 1276#37808: create thread 35108
+2018/12/13 20:05:38 [notice] 11916#23224: exiting
+2018/12/13 20:05:38 [notice] 1276#37808: create thread 35108
+2018/12/13 20:05:38 [notice] 1276#37808: create thread 13252
+2018/12/13 20:05:38 [notice] 1276#37808: create thread 13252
+2018/12/13 20:05:38 [notice] 11916#36972: exiting
+2018/12/13 20:05:38 [notice] 11916#36972: exiting
+2018/12/13 20:05:38 [notice] 11916#21936: exit
+2018/12/13 20:05:38 [notice] 11916#21936: exit
+2018/12/13 20:05:38 [notice] 19656#36748: worker process 11916 exited with code 0
+2018/12/13 20:05:38 [notice] 19656#36748: worker process 11916 exited with code 0
+2018/12/13 20:05:55 [notice] 38760#46220: signal process started
+2018/12/13 20:05:55 [notice] 19656#36748: reconfiguring
+2018/12/13 20:05:55 [notice] 19656#36748: reconfiguring
+2018/12/13 20:05:55 [notice] 19656#36748: using the "select" event method
+2018/12/13 20:05:55 [notice] 19656#36748: using the "select" event method
+2018/12/13 20:05:55 [notice] 19656#36748: start worker processes
+2018/12/13 20:05:55 [notice] 19656#36748: start worker processes
+2018/12/13 20:05:55 [notice] 19656#36748: start worker process 46652
+2018/12/13 20:05:55 [notice] 19656#36748: start worker process 46652
+2018/12/13 20:05:55 [notice] 46652#7880: nginx/1.15.7
+2018/12/13 20:05:55 [notice] 46652#7880: nginx/1.15.7
+2018/12/13 20:05:55 [info] 46652#7880: OS: 260200 build:9200, "", suite:100, type:1
+2018/12/13 20:05:55 [notice] 1276#37808: gracefully shutting down
+2018/12/13 20:05:55 [notice] 46652#7880: create thread 23728
+2018/12/13 20:05:55 [notice] 1276#37808: gracefully shutting down
+2018/12/13 20:05:55 [notice] 46652#7880: create thread 23728
+2018/12/13 20:05:55 [notice] 1276#35108: exiting
+2018/12/13 20:05:55 [notice] 1276#35108: exiting
+2018/12/13 20:05:55 [notice] 46652#7880: create thread 48492
+2018/12/13 20:05:55 [notice] 46652#7880: create thread 48492
+2018/12/13 20:05:55 [notice] 46652#7880: create thread 49780
+2018/12/13 20:05:55 [notice] 46652#7880: create thread 49780
+2018/12/13 20:05:55 [notice] 1276#17596: exiting
+2018/12/13 20:05:55 [notice] 1276#17596: exiting
+2018/12/13 20:05:55 [notice] 1276#37808: exit
+2018/12/13 20:05:55 [notice] 1276#37808: exit
+2018/12/13 20:05:55 [notice] 19656#36748: worker process 1276 exited with code 0
+2018/12/13 20:05:55 [notice] 19656#36748: worker process 1276 exited with code 0
+2018/12/13 20:06:09 [notice] 44072#8096: signal process started
+2018/12/13 20:06:09 [notice] 19656#36748: reconfiguring
+2018/12/13 20:06:09 [notice] 19656#36748: reconfiguring
+2018/12/13 20:06:09 [notice] 19656#36748: using the "select" event method
+2018/12/13 20:06:09 [notice] 19656#36748: using the "select" event method
+2018/12/13 20:06:09 [notice] 19656#36748: start worker processes
+2018/12/13 20:06:09 [notice] 19656#36748: start worker processes
+2018/12/13 20:06:09 [notice] 19656#36748: start worker process 8916
+2018/12/13 20:06:09 [notice] 19656#36748: start worker process 8916
+2018/12/13 20:06:09 [notice] 8916#21032: nginx/1.15.7
+2018/12/13 20:06:09 [notice] 8916#21032: nginx/1.15.7
+2018/12/13 20:06:09 [info] 8916#21032: OS: 260200 build:9200, "", suite:100, type:1
+2018/12/13 20:06:09 [notice] 8916#21032: create thread 22052
+2018/12/13 20:06:09 [notice] 8916#21032: create thread 22052
+2018/12/13 20:06:09 [notice] 46652#7880: gracefully shutting down
+2018/12/13 20:06:09 [notice] 46652#7880: gracefully shutting down
+2018/12/13 20:06:09 [notice] 46652#48492: exiting
+2018/12/13 20:06:09 [notice] 46652#48492: exiting
+2018/12/13 20:06:09 [notice] 8916#21032: create thread 2680
+2018/12/13 20:06:09 [notice] 8916#21032: create thread 2680
+2018/12/13 20:06:09 [notice] 8916#21032: create thread 20900
+2018/12/13 20:06:09 [notice] 8916#21032: create thread 20900
+2018/12/13 20:06:09 [notice] 46652#23728: exiting
+2018/12/13 20:06:09 [notice] 46652#23728: exiting
+2018/12/13 20:06:09 [notice] 46652#7880: exit
+2018/12/13 20:06:09 [notice] 46652#7880: exit
+2018/12/13 20:06:09 [notice] 19656#36748: worker process 46652 exited with code 0
+2018/12/13 20:06:09 [notice] 19656#36748: worker process 46652 exited with code 0
+2018/12/13 20:06:44 [error] 41536#44736: *9 CreateFile() "C:\Program Files (x86)\Nginx/html/favicon.ico" failed (2: FormatMessage() error:(1813)), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "golang.local", referrer: "http://golang.local/"
+2018/12/13 20:06:44 [error] 41536#44736: *9 CreateFile() "C:\Program Files (x86)\Nginx/html/favicon.ico" failed (2: FormatMessage() error:(1813)), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "golang.local", referrer: "http://golang.local/"
+2018/12/13 20:06:44 [error] 41536#44736: *9 CreateFile() "C:\Program Files (x86)\Nginx/html/favicon.ico" failed (2: FormatMessage() error:(1813)), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "golang.local", referrer: "http://golang.local/"
+2018/12/13 20:07:05 [notice] 49932#43064: signal process started
+2018/12/13 20:07:05 [notice] 19656#36748: reconfiguring
+2018/12/13 20:07:05 [notice] 19656#36748: reconfiguring
+2018/12/13 20:07:05 [notice] 19656#36748: using the "select" event method
+2018/12/13 20:07:05 [notice] 19656#36748: using the "select" event method
+2018/12/13 20:07:05 [notice] 19656#36748: start worker processes
+2018/12/13 20:07:05 [notice] 19656#36748: start worker processes
+2018/12/13 20:07:05 [notice] 19656#36748: start worker process 33132
+2018/12/13 20:07:05 [notice] 19656#36748: start worker process 33132
+2018/12/13 20:07:05 [notice] 33132#5216: nginx/1.15.7
+2018/12/13 20:07:05 [notice] 33132#5216: nginx/1.15.7
+2018/12/13 20:07:05 [info] 33132#5216: OS: 260200 build:9200, "", suite:100, type:1
+2018/12/13 20:07:05 [notice] 8916#21032: gracefully shutting down
+2018/12/13 20:07:05 [notice] 8916#21032: gracefully shutting down
+2018/12/13 20:07:05 [notice] 33132#5216: create thread 20188
+2018/12/13 20:07:05 [notice] 8916#2680: exiting
+2018/12/13 20:07:05 [notice] 33132#5216: create thread 20188
+2018/12/13 20:07:05 [notice] 8916#2680: exiting
+2018/12/13 20:07:05 [notice] 33132#5216: create thread 38596
+2018/12/13 20:07:05 [notice] 33132#5216: create thread 38596
+2018/12/13 20:07:05 [notice] 33132#5216: create thread 39428
+2018/12/13 20:07:05 [notice] 33132#5216: create thread 39428
+2018/12/13 20:07:05 [notice] 8916#22052: exiting
+2018/12/13 20:07:05 [notice] 8916#22052: exiting
+2018/12/13 20:07:05 [notice] 8916#21032: exit
+2018/12/13 20:07:05 [notice] 8916#21032: exit
+2018/12/13 20:07:05 [notice] 19656#36748: worker process 8916 exited with code 0
+2018/12/13 20:07:05 [notice] 19656#36748: worker process 8916 exited with code 0
+2018/12/13 20:07:26 [emerg] 26252#40008: invalid URL prefix in C:\Program Files (x86)\Nginx/conf/nginx.conf:122
+2018/12/13 20:08:02 [emerg] 16584#11280: invalid return code "OK" in C:\Program Files (x86)\Nginx/conf/nginx.conf:122
+2018/12/13 20:08:11 [notice] 51476#38928: signal process started
+2018/12/13 20:08:11 [notice] 19656#36748: reconfiguring
+2018/12/13 20:08:11 [notice] 19656#36748: reconfiguring
+2018/12/13 20:08:11 [notice] 19656#36748: using the "select" event method
+2018/12/13 20:08:11 [notice] 19656#36748: using the "select" event method
+2018/12/13 20:08:11 [notice] 19656#36748: start worker processes
+2018/12/13 20:08:11 [notice] 19656#36748: start worker processes
+2018/12/13 20:08:11 [notice] 19656#36748: start worker process 8200
+2018/12/13 20:08:11 [notice] 19656#36748: start worker process 8200
+2018/12/13 20:08:11 [notice] 8200#37568: nginx/1.15.7
+2018/12/13 20:08:11 [notice] 8200#37568: nginx/1.15.7
+2018/12/13 20:08:11 [info] 8200#37568: OS: 260200 build:9200, "", suite:100, type:1
+2018/12/13 20:08:11 [notice] 33132#5216: gracefully shutting down
+2018/12/13 20:08:11 [notice] 8200#37568: create thread 19732
+2018/12/13 20:08:11 [notice] 33132#5216: gracefully shutting down
+2018/12/13 20:08:11 [notice] 8200#37568: create thread 19732
+2018/12/13 20:08:11 [notice] 33132#38596: exiting
+2018/12/13 20:08:11 [notice] 33132#38596: exiting
+2018/12/13 20:08:11 [notice] 8200#37568: create thread 52496
+2018/12/13 20:08:11 [notice] 8200#37568: create thread 52496
+2018/12/13 20:08:11 [notice] 8200#37568: create thread 47732
+2018/12/13 20:08:11 [notice] 8200#37568: create thread 47732
+2018/12/13 20:08:11 [notice] 33132#20188: exiting
+2018/12/13 20:08:11 [notice] 33132#20188: exiting
+2018/12/13 20:08:11 [notice] 33132#5216: exit
+2018/12/13 20:08:11 [notice] 33132#5216: exit
+2018/12/13 20:08:11 [notice] 19656#36748: worker process 33132 exited with code 0
+2018/12/13 20:08:11 [notice] 19656#36748: worker process 33132 exited with code 0
+2018/12/13 20:10:58 [notice] 13068#38016: signal process started
+2018/12/13 20:10:58 [notice] 19656#36748: exiting
+2018/12/13 20:10:58 [notice] 19656#36748: exiting
+2018/12/13 20:10:58 [notice] 8200#37568: gracefully shutting down
+2018/12/13 20:10:58 [notice] 8200#37568: gracefully shutting down
+2018/12/13 20:10:58 [notice] 8200#52496: exiting
+2018/12/13 20:10:58 [notice] 8200#52496: exiting
+2018/12/13 20:10:58 [notice] 8200#19732: exiting
+2018/12/13 20:10:58 [notice] 8200#19732: exiting
+2018/12/13 20:10:58 [notice] 8200#37568: exit
+2018/12/13 20:10:58 [notice] 8200#37568: exit
+2018/12/13 20:10:58 [notice] 19656#36748: worker process 8200 exited with code 0
+2018/12/13 20:10:58 [notice] 19656#36748: worker process 8200 exited with code 0
+2018/12/13 20:10:58 [notice] 19656#36748: exit
+2018/12/13 20:10:58 [notice] 19656#36748: exit
+2018/12/13 20:11:00 [notice] 9992#4484: using the "select" event method
+2018/12/13 20:11:00 [notice] 9992#4484: using the "select" event method
+2018/12/13 20:11:00 [notice] 9992#4484: nginx/1.15.7
+2018/12/13 20:11:00 [notice] 9992#4484: nginx/1.15.7
+2018/12/13 20:11:00 [info] 9992#4484: OS: 260200 build:9200, "", suite:100, type:1
+2018/12/13 20:11:00 [notice] 9992#4484: start worker processes
+2018/12/13 20:11:00 [notice] 9992#4484: start worker processes
+2018/12/13 20:11:00 [notice] 9992#4484: start worker process 48328
+2018/12/13 20:11:00 [notice] 9992#4484: start worker process 48328
+2018/12/13 20:11:00 [notice] 48328#24500: nginx/1.15.7
+2018/12/13 20:11:00 [notice] 48328#24500: nginx/1.15.7
+2018/12/13 20:11:00 [info] 48328#24500: OS: 260200 build:9200, "", suite:100, type:1
+2018/12/13 20:11:00 [notice] 48328#24500: create thread 3596
+2018/12/13 20:11:00 [notice] 48328#24500: create thread 3596
+2018/12/13 20:11:00 [notice] 48328#24500: create thread 9908
+2018/12/13 20:11:00 [notice] 48328#24500: create thread 9908
+2018/12/13 20:11:00 [notice] 48328#24500: create thread 880
+2018/12/13 20:11:00 [notice] 48328#24500: create thread 880
+2018/12/13 20:11:15 [info] 41536#44736: *11 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2018/12/13 20:11:57 [emerg] 7964#29968: invalid parameter "8080" in C:\Program Files (x86)\Nginx/conf/nginx.conf:118
+2018/12/13 20:11:59 [emerg] 37092#11116: invalid parameter "8080" in C:\Program Files (x86)\Nginx/conf/nginx.conf:118
+2018/12/13 20:12:08 [emerg] 44496#46008: invalid parameter "8080" in C:\Program Files (x86)\Nginx/conf/nginx.conf:118
+2018/12/13 20:12:17 [notice] 32660#48068: signal process started
+2018/12/13 20:12:17 [notice] 9992#4484: exiting
+2018/12/13 20:12:17 [notice] 9992#4484: exiting
+2018/12/13 20:12:17 [notice] 48328#24500: gracefully shutting down
+2018/12/13 20:12:17 [notice] 48328#24500: gracefully shutting down
+2018/12/13 20:12:17 [notice] 48328#9908: exiting
+2018/12/13 20:12:17 [notice] 48328#9908: exiting
+2018/12/13 20:12:17 [notice] 48328#3596: exiting
+2018/12/13 20:12:17 [notice] 48328#3596: exiting
+2018/12/13 20:12:17 [notice] 48328#24500: exit
+2018/12/13 20:12:17 [notice] 48328#24500: exit
+2018/12/13 20:12:17 [notice] 9992#4484: worker process 48328 exited with code 0
+2018/12/13 20:12:17 [notice] 9992#4484: worker process 48328 exited with code 0
+2018/12/13 20:12:17 [notice] 9992#4484: exit
+2018/12/13 20:12:17 [notice] 9992#4484: exit
+2018/12/13 20:12:22 [notice] 31652#9580: signal process started
+2018/12/13 20:12:22 [error] 31652#9580: CreateFile() "C:\Program Files (x86)\Nginx/logs/nginx.pid" failed (2: FormatMessage() error:(1813))
+2018/12/13 20:12:26 [notice] 45516#29068: using the "select" event method
+2018/12/13 20:12:26 [notice] 45516#29068: using the "select" event method
+2018/12/13 20:12:26 [notice] 45516#29068: nginx/1.15.7
+2018/12/13 20:12:26 [notice] 45516#29068: nginx/1.15.7
+2018/12/13 20:12:26 [info] 45516#29068: OS: 260200 build:9200, "", suite:100, type:1
+2018/12/13 20:12:26 [notice] 45516#29068: start worker processes
+2018/12/13 20:12:26 [notice] 45516#29068: start worker processes
+2018/12/13 20:12:26 [notice] 45516#29068: start worker process 18980
+2018/12/13 20:12:26 [notice] 45516#29068: start worker process 18980
+2018/12/13 20:12:26 [notice] 18980#20732: nginx/1.15.7
+2018/12/13 20:12:26 [notice] 18980#20732: nginx/1.15.7
+2018/12/13 20:12:26 [info] 18980#20732: OS: 260200 build:9200, "", suite:100, type:1
+2018/12/13 20:12:26 [notice] 18980#20732: create thread 38500
+2018/12/13 20:12:26 [notice] 18980#20732: create thread 38500
+2018/12/13 20:12:26 [notice] 18980#20732: create thread 3980
+2018/12/13 20:12:26 [notice] 18980#20732: create thread 3980
+2018/12/13 20:12:26 [notice] 18980#20732: create thread 5524
+2018/12/13 20:12:26 [notice] 18980#20732: create thread 5524
+2018/12/13 20:12:38 [warn] 17236#13668: server name "golang.local/" has suspicious symbols in C:\Program Files (x86)\Nginx/conf/nginx.conf:119
+2018/12/13 20:12:38 [notice] 17236#13668: signal process started
+2018/12/13 20:12:38 [notice] 45516#29068: reconfiguring
+2018/12/13 20:12:38 [notice] 45516#29068: reconfiguring
+2018/12/13 20:12:38 [warn] 45516#29068: server name "golang.local/" has suspicious symbols in C:\Program Files (x86)\Nginx/conf/nginx.conf:119
+2018/12/13 20:12:38 [warn] 45516#29068: server name "golang.local/" has suspicious symbols in C:\Program Files (x86)\Nginx/conf/nginx.conf:119
+2018/12/13 20:12:38 [notice] 45516#29068: using the "select" event method
+2018/12/13 20:12:38 [notice] 45516#29068: using the "select" event method
+2018/12/13 20:12:38 [notice] 45516#29068: start worker processes
+2018/12/13 20:12:38 [notice] 45516#29068: start worker processes
+2018/12/13 20:12:38 [notice] 45516#29068: start worker process 11024
+2018/12/13 20:12:38 [notice] 45516#29068: start worker process 11024
+2018/12/13 20:12:38 [warn] 11024#46144: server name "golang.local/" has suspicious symbols in C:\Program Files (x86)\Nginx/conf/nginx.conf:119
+2018/12/13 20:12:38 [notice] 11024#46144: nginx/1.15.7
+2018/12/13 20:12:38 [notice] 11024#46144: nginx/1.15.7
+2018/12/13 20:12:38 [info] 11024#46144: OS: 260200 build:9200, "", suite:100, type:1
+2018/12/13 20:12:38 [notice] 18980#20732: gracefully shutting down
+2018/12/13 20:12:38 [notice] 11024#46144: create thread 44068
+2018/12/13 20:12:38 [notice] 18980#20732: gracefully shutting down
+2018/12/13 20:12:38 [notice] 11024#46144: create thread 44068
+2018/12/13 20:12:38 [notice] 18980#3980: exiting
+2018/12/13 20:12:38 [notice] 18980#3980: exiting
+2018/12/13 20:12:38 [notice] 11024#46144: create thread 36244
+2018/12/13 20:12:38 [notice] 11024#46144: create thread 36244
+2018/12/13 20:12:38 [notice] 11024#46144: create thread 39060
+2018/12/13 20:12:38 [notice] 11024#46144: create thread 39060
+2018/12/13 20:12:38 [notice] 18980#38500: exiting
+2018/12/13 20:12:38 [notice] 18980#38500: exiting
+2018/12/13 20:12:38 [notice] 18980#20732: exit
+2018/12/13 20:12:38 [notice] 18980#20732: exit
+2018/12/13 20:12:38 [notice] 45516#29068: worker process 18980 exited with code 0
+2018/12/13 20:12:38 [notice] 45516#29068: worker process 18980 exited with code 0
+2018/12/13 20:13:33 [notice] 20852#7540: signal process started
+2018/12/13 20:13:33 [notice] 45516#29068: reconfiguring
+2018/12/13 20:13:33 [notice] 45516#29068: reconfiguring
+2018/12/13 20:13:33 [notice] 45516#29068: using the "select" event method
+2018/12/13 20:13:33 [notice] 45516#29068: using the "select" event method
+2018/12/13 20:13:33 [notice] 45516#29068: start worker processes
+2018/12/13 20:13:33 [notice] 45516#29068: start worker processes
+2018/12/13 20:13:33 [notice] 45516#29068: start worker process 12252
+2018/12/13 20:13:33 [notice] 45516#29068: start worker process 12252
+2018/12/13 20:13:34 [notice] 12252#31892: nginx/1.15.7
+2018/12/13 20:13:34 [notice] 12252#31892: nginx/1.15.7
+2018/12/13 20:13:34 [info] 12252#31892: OS: 260200 build:9200, "", suite:100, type:1
+2018/12/13 20:13:34 [notice] 12252#31892: create thread 51620
+2018/12/13 20:13:34 [notice] 12252#31892: create thread 51620
+2018/12/13 20:13:34 [notice] 12252#31892: create thread 7760
+2018/12/13 20:13:34 [notice] 12252#31892: create thread 7760
+2018/12/13 20:13:34 [notice] 11024#46144: gracefully shutting down
+2018/12/13 20:13:34 [notice] 11024#46144: gracefully shutting down
+2018/12/13 20:13:34 [notice] 12252#31892: create thread 29336
+2018/12/13 20:13:34 [notice] 12252#31892: create thread 29336
+2018/12/13 20:13:34 [notice] 11024#36244: exiting
+2018/12/13 20:13:34 [notice] 11024#36244: exiting
+2018/12/13 20:13:34 [notice] 11024#44068: exiting
+2018/12/13 20:13:34 [notice] 11024#44068: exiting
+2018/12/13 20:13:34 [notice] 11024#46144: exit
+2018/12/13 20:13:34 [notice] 11024#46144: exit
+2018/12/13 20:13:34 [notice] 45516#29068: worker process 11024 exited with code 0
+2018/12/13 20:13:34 [notice] 45516#29068: worker process 11024 exited with code 0
+2018/12/13 20:14:05 [notice] 49928#42684: signal process started
+2018/12/13 20:14:05 [notice] 45516#29068: exiting
+2018/12/13 20:14:05 [notice] 45516#29068: exiting
+2018/12/13 20:14:05 [notice] 12252#31892: gracefully shutting down
+2018/12/13 20:14:05 [notice] 12252#31892: gracefully shutting down
+2018/12/13 20:14:05 [notice] 12252#7760: exiting
+2018/12/13 20:14:05 [notice] 12252#7760: exiting
+2018/12/13 20:14:06 [notice] 12252#51620: exiting
+2018/12/13 20:14:06 [notice] 12252#51620: exiting
+2018/12/13 20:14:06 [notice] 12252#31892: exit
+2018/12/13 20:14:06 [notice] 12252#31892: exit
+2018/12/13 20:14:06 [notice] 45516#29068: worker process 12252 exited with code 0
+2018/12/13 20:14:06 [notice] 45516#29068: worker process 12252 exited with code 0
+2018/12/13 20:14:06 [notice] 45516#29068: exit
+2018/12/13 20:14:06 [notice] 45516#29068: exit
+2018/12/13 20:14:07 [notice] 33096#11012: using the "select" event method
+2018/12/13 20:14:07 [notice] 33096#11012: using the "select" event method
+2018/12/13 20:14:07 [notice] 33096#11012: nginx/1.15.7
+2018/12/13 20:14:07 [notice] 33096#11012: nginx/1.15.7
+2018/12/13 20:14:07 [info] 33096#11012: OS: 260200 build:9200, "", suite:100, type:1
+2018/12/13 20:14:07 [notice] 33096#11012: start worker processes
+2018/12/13 20:14:07 [notice] 33096#11012: start worker processes
+2018/12/13 20:14:07 [notice] 33096#11012: start worker process 44988
+2018/12/13 20:14:07 [notice] 33096#11012: start worker process 44988
+2018/12/13 20:14:07 [notice] 44988#35812: nginx/1.15.7
+2018/12/13 20:14:07 [notice] 44988#35812: nginx/1.15.7
+2018/12/13 20:14:07 [info] 44988#35812: OS: 260200 build:9200, "", suite:100, type:1
+2018/12/13 20:14:07 [notice] 44988#35812: create thread 52084
+2018/12/13 20:14:07 [notice] 44988#35812: create thread 52084
+2018/12/13 20:14:07 [notice] 44988#35812: create thread 28276
+2018/12/13 20:14:07 [notice] 44988#35812: create thread 28276
+2018/12/13 20:14:07 [notice] 44988#35812: create thread 39292
+2018/12/13 20:14:07 [notice] 44988#35812: create thread 39292
+2018/12/13 20:14:55 [info] 41536#44736: *16 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2018/12/13 20:15:52 [notice] 44696#29700: signal process started
+2018/12/13 20:15:52 [notice] 33096#11012: reconfiguring
+2018/12/13 20:15:52 [notice] 33096#11012: reconfiguring
+2018/12/13 20:15:52 [notice] 33096#11012: using the "select" event method
+2018/12/13 20:15:52 [notice] 33096#11012: using the "select" event method
+2018/12/13 20:15:52 [notice] 33096#11012: start worker processes
+2018/12/13 20:15:52 [notice] 33096#11012: start worker processes
+2018/12/13 20:15:52 [notice] 33096#11012: start worker process 32860
+2018/12/13 20:15:52 [notice] 33096#11012: start worker process 32860
+2018/12/13 20:15:52 [notice] 32860#7076: nginx/1.15.7
+2018/12/13 20:15:52 [notice] 32860#7076: nginx/1.15.7
+2018/12/13 20:15:52 [info] 32860#7076: OS: 260200 build:9200, "", suite:100, type:1
+2018/12/13 20:15:52 [notice] 32860#7076: create thread 42980
+2018/12/13 20:15:52 [notice] 44988#35812: gracefully shutting down
+2018/12/13 20:15:52 [notice] 32860#7076: create thread 42980
+2018/12/13 20:15:52 [notice] 44988#35812: gracefully shutting down
+2018/12/13 20:15:52 [notice] 44988#28276: exiting
+2018/12/13 20:15:52 [notice] 44988#28276: exiting
+2018/12/13 20:15:52 [notice] 32860#7076: create thread 50464
+2018/12/13 20:15:52 [notice] 32860#7076: create thread 50464
+2018/12/13 20:15:52 [notice] 32860#7076: create thread 25108
+2018/12/13 20:15:52 [notice] 32860#7076: create thread 25108
+2018/12/13 20:15:52 [notice] 44988#52084: exiting
+2018/12/13 20:15:52 [notice] 44988#52084: exiting
+2018/12/13 20:15:52 [notice] 44988#35812: exit
+2018/12/13 20:15:52 [notice] 44988#35812: exit
+2018/12/13 20:15:52 [notice] 33096#11012: worker process 44988 exited with code 0
+2018/12/13 20:15:52 [notice] 33096#11012: worker process 44988 exited with code 0
+2018/12/13 20:15:54 [notice] 51564#16708: signal process started
+2018/12/13 20:15:54 [notice] 33096#11012: exiting
+2018/12/13 20:15:54 [notice] 33096#11012: exiting
+2018/12/13 20:15:54 [notice] 32860#7076: gracefully shutting down
+2018/12/13 20:15:54 [notice] 32860#7076: gracefully shutting down
+2018/12/13 20:15:54 [notice] 32860#50464: exiting
+2018/12/13 20:15:54 [notice] 32860#50464: exiting
+2018/12/13 20:15:54 [notice] 32860#42980: exiting
+2018/12/13 20:15:54 [notice] 32860#42980: exiting
+2018/12/13 20:15:54 [notice] 32860#7076: exit
+2018/12/13 20:15:54 [notice] 32860#7076: exit
+2018/12/13 20:15:54 [notice] 33096#11012: worker process 32860 exited with code 0
+2018/12/13 20:15:54 [notice] 33096#11012: worker process 32860 exited with code 0
+2018/12/13 20:15:54 [notice] 33096#11012: exit
+2018/12/13 20:15:54 [notice] 33096#11012: exit
+2018/12/13 20:15:55 [notice] 48928#20040: signal process started
+2018/12/13 20:15:55 [error] 48928#20040: CreateFile() "C:\Program Files (x86)\Nginx/logs/nginx.pid" failed (2: FormatMessage() error:(1813))
+2018/12/13 20:15:57 [notice] 17608#35116: signal process started
+2018/12/13 20:15:57 [error] 17608#35116: CreateFile() "C:\Program Files (x86)\Nginx/logs/nginx.pid" failed (2: FormatMessage() error:(1813))
+2018/12/13 20:15:58 [notice] 8536#11680: using the "select" event method
+2018/12/13 20:15:58 [notice] 8536#11680: using the "select" event method
+2018/12/13 20:15:58 [notice] 8536#11680: nginx/1.15.7
+2018/12/13 20:15:58 [notice] 8536#11680: nginx/1.15.7
+2018/12/13 20:15:58 [info] 8536#11680: OS: 260200 build:9200, "", suite:100, type:1
+2018/12/13 20:15:58 [notice] 8536#11680: start worker processes
+2018/12/13 20:15:58 [notice] 8536#11680: start worker processes
+2018/12/13 20:15:58 [notice] 8536#11680: start worker process 46284
+2018/12/13 20:15:58 [notice] 8536#11680: start worker process 46284
+2018/12/13 20:15:58 [notice] 46284#20452: nginx/1.15.7
+2018/12/13 20:15:58 [notice] 46284#20452: nginx/1.15.7
+2018/12/13 20:15:58 [info] 46284#20452: OS: 260200 build:9200, "", suite:100, type:1
+2018/12/13 20:15:58 [notice] 46284#20452: create thread 47540
+2018/12/13 20:15:58 [notice] 46284#20452: create thread 47540
+2018/12/13 20:15:58 [notice] 46284#20452: create thread 1088
+2018/12/13 20:15:58 [notice] 46284#20452: create thread 1088
+2018/12/13 20:15:58 [notice] 46284#20452: create thread 46100
+2018/12/13 20:15:58 [notice] 46284#20452: create thread 46100
+2018/12/13 21:33:44 [notice] 880#12164: using the "select" event method
+2018/12/13 21:33:44 [notice] 880#12164: using the "select" event method
+2018/12/13 21:33:44 [notice] 880#12164: nginx/1.15.7
+2018/12/13 21:33:44 [notice] 880#12164: nginx/1.15.7
+2018/12/13 21:33:44 [info] 880#12164: OS: 260200 build:9200, "", suite:100, type:1
+2018/12/13 21:33:44 [notice] 880#12164: start worker processes
+2018/12/13 21:33:44 [notice] 880#12164: start worker processes
+2018/12/13 21:33:44 [notice] 880#12164: start worker process 2712
+2018/12/13 21:33:44 [notice] 880#12164: start worker process 2712
+2018/12/13 21:33:44 [notice] 2712#8576: nginx/1.15.7
+2018/12/13 21:33:44 [notice] 2712#8576: nginx/1.15.7
+2018/12/13 21:33:44 [info] 2712#8576: OS: 260200 build:9200, "", suite:100, type:1
+2018/12/13 21:33:44 [notice] 2712#8576: create thread 7584
+2018/12/13 21:33:44 [notice] 2712#8576: create thread 7584
+2018/12/13 21:33:44 [notice] 2712#8576: create thread 1116
+2018/12/13 21:33:44 [notice] 2712#8576: create thread 1116
+2018/12/13 21:33:44 [notice] 2712#8576: create thread 6332
+2018/12/13 21:33:44 [notice] 2712#8576: create thread 6332
+2018/12/13 21:33:47 [notice] 10664#11380: using the "select" event method
+2018/12/13 21:33:47 [notice] 10664#11380: using the "select" event method
+2018/12/13 21:33:47 [notice] 10664#11380: nginx/1.15.7
+2018/12/13 21:33:47 [notice] 10664#11380: nginx/1.15.7
+2018/12/13 21:33:47 [info] 10664#11380: OS: 260200 build:9200, "", suite:100, type:1
+2018/12/13 21:33:47 [notice] 10664#11380: start worker processes
+2018/12/13 21:33:47 [notice] 10664#11380: start worker processes
+2018/12/13 21:33:47 [notice] 10664#11380: start worker process 7720
+2018/12/13 21:33:47 [notice] 10664#11380: start worker process 7720
+2018/12/13 21:33:47 [notice] 7720#1092: nginx/1.15.7
+2018/12/13 21:33:47 [notice] 7720#1092: nginx/1.15.7
+2018/12/13 21:33:47 [info] 7720#1092: OS: 260200 build:9200, "", suite:100, type:1
+2018/12/13 21:33:47 [notice] 7720#1092: create thread 1944
+2018/12/13 21:33:47 [notice] 7720#1092: create thread 1944
+2018/12/13 21:33:47 [notice] 7720#1092: create thread 5104
+2018/12/13 21:33:47 [notice] 7720#1092: create thread 5104
+2018/12/13 21:33:47 [notice] 7720#1092: create thread 2424
+2018/12/13 21:33:47 [notice] 7720#1092: create thread 2424
+2018/12/13 21:34:11 [info] 2712#7584: *2 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2018/12/13 21:35:14 [info] 2712#7584: *4 client timed out (10060: FormatMessage() error:(1813)) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2018/12/13 21:36:02 [notice] 6152#9744: signal process started
+2018/12/13 21:36:02 [notice] 10664#11380: reconfiguring
+2018/12/13 21:36:02 [notice] 10664#11380: reconfiguring
+2018/12/13 21:36:02 [notice] 10664#11380: using the "select" event method
+2018/12/13 21:36:02 [notice] 10664#11380: using the "select" event method
+2018/12/13 21:36:02 [notice] 10664#11380: start worker processes
+2018/12/13 21:36:02 [notice] 10664#11380: start worker processes
+2018/12/13 21:36:02 [notice] 10664#11380: start worker process 2312
+2018/12/13 21:36:02 [notice] 10664#11380: start worker process 2312
+2018/12/13 21:36:02 [notice] 2312#8004: nginx/1.15.7
+2018/12/13 21:36:02 [notice] 2312#8004: nginx/1.15.7
+2018/12/13 21:36:02 [info] 2312#8004: OS: 260200 build:9200, "", suite:100, type:1
+2018/12/13 21:36:02 [notice] 2312#8004: create thread 3680
+2018/12/13 21:36:02 [notice] 2312#8004: create thread 3680
+2018/12/13 21:36:02 [notice] 2312#8004: create thread 4184
+2018/12/13 21:36:02 [notice] 2312#8004: create thread 4184
+2018/12/13 21:36:02 [notice] 7720#1092: gracefully shutting down
+2018/12/13 21:36:02 [notice] 7720#1092: gracefully shutting down
+2018/12/13 21:36:02 [notice] 2312#8004: create thread 8480
+2018/12/13 21:36:02 [notice] 7720#5104: exiting
+2018/12/13 21:36:02 [notice] 2312#8004: create thread 8480
+2018/12/13 21:36:02 [notice] 7720#5104: exiting
+2018/12/13 21:36:02 [notice] 7720#1944: exiting
+2018/12/13 21:36:02 [notice] 7720#1944: exiting
+2018/12/13 21:36:02 [notice] 7720#1092: exit
+2018/12/13 21:36:02 [notice] 7720#1092: exit
+2018/12/13 21:36:02 [notice] 10664#11380: worker process 7720 exited with code 0
+2018/12/13 21:36:02 [notice] 10664#11380: worker process 7720 exited with code 0
+2018/12/13 21:36:20 [notice] 3800#2924: signal process started
+2018/12/13 21:36:20 [notice] 10664#11380: exiting
+2018/12/13 21:36:20 [notice] 10664#11380: exiting
+2018/12/13 21:36:20 [notice] 2312#8004: gracefully shutting down
+2018/12/13 21:36:20 [notice] 2312#8004: gracefully shutting down
+2018/12/13 21:36:20 [notice] 2312#4184: exiting
+2018/12/13 21:36:20 [notice] 2312#4184: exiting
+2018/12/13 21:36:21 [notice] 2312#3680: exiting
+2018/12/13 21:36:21 [notice] 2312#3680: exiting
+2018/12/13 21:36:21 [notice] 2312#8004: exit
+2018/12/13 21:36:21 [notice] 2312#8004: exit
+2018/12/13 21:36:21 [notice] 10664#11380: worker process 2312 exited with code 0
+2018/12/13 21:36:21 [notice] 10664#11380: worker process 2312 exited with code 0
+2018/12/13 21:36:21 [notice] 10664#11380: exit
+2018/12/13 21:36:21 [notice] 10664#11380: exit
+2018/12/13 21:36:46 [notice] 5324#10564: signal process started
+2018/12/13 21:36:46 [error] 5324#10564: CreateFile() "C:\Program Files (x86)\Nginx/logs/nginx.pid" failed (2: FormatMessage() error:(1813))
+2018/12/13 21:37:15 [info] 2712#7584: *7 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2018/12/13 21:42:35 [notice] 552#11284: using the "select" event method
+2018/12/13 21:42:35 [notice] 552#11284: using the "select" event method
+2018/12/13 21:42:35 [notice] 552#11284: nginx/1.15.7
+2018/12/13 21:42:35 [notice] 552#11284: nginx/1.15.7
+2018/12/13 21:42:35 [info] 552#11284: OS: 260200 build:9200, "", suite:100, type:1
+2018/12/13 21:42:35 [notice] 552#11284: start worker processes
+2018/12/13 21:42:35 [notice] 552#11284: start worker processes
+2018/12/13 21:42:35 [notice] 552#11284: start worker process 2492
+2018/12/13 21:42:35 [notice] 552#11284: start worker process 2492
+2018/12/13 21:42:35 [notice] 2492#9948: nginx/1.15.7
+2018/12/13 21:42:35 [notice] 2492#9948: nginx/1.15.7
+2018/12/13 21:42:35 [info] 2492#9948: OS: 260200 build:9200, "", suite:100, type:1
+2018/12/13 21:42:35 [notice] 2492#9948: create thread 9880
+2018/12/13 21:42:35 [notice] 2492#9948: create thread 9880
+2018/12/13 21:42:35 [notice] 2492#9948: create thread 2548
+2018/12/13 21:42:35 [notice] 2492#9948: create thread 2548
+2018/12/13 21:42:35 [notice] 2492#9948: create thread 3076
+2018/12/13 21:42:35 [notice] 2492#9948: create thread 3076
+2018/12/13 21:42:38 [error] 2492#9880: *1 CreateFile() "C:\Program Files (x86)\Nginx/html/favicon.ico" failed (2: FormatMessage() error:(1813)), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2018/12/13 21:42:38 [error] 2492#9880: *1 CreateFile() "C:\Program Files (x86)\Nginx/html/favicon.ico" failed (2: FormatMessage() error:(1813)), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2018/12/13 21:42:38 [error] 2492#9880: *1 CreateFile() "C:\Program Files (x86)\Nginx/html/favicon.ico" failed (2: FormatMessage() error:(1813)), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2018/12/13 21:43:09 [info] 2492#9880: *3 client prematurely closed connection, so upstream connection is closed too while connecting to upstream, client: 127.0.0.1, server: golang.local, request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:3000/", host: "golang.local"
+2018/12/13 21:43:09 [info] 2492#9880: *2 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2018/12/13 21:44:08 [notice] 10940#2036: signal process started
+2018/12/13 21:44:08 [notice] 552#11284: reconfiguring
+2018/12/13 21:44:08 [notice] 552#11284: reconfiguring
+2018/12/13 21:44:08 [notice] 552#11284: using the "select" event method
+2018/12/13 21:44:08 [notice] 552#11284: using the "select" event method
+2018/12/13 21:44:08 [notice] 552#11284: start worker processes
+2018/12/13 21:44:08 [notice] 552#11284: start worker processes
+2018/12/13 21:44:08 [notice] 552#11284: start worker process 3744
+2018/12/13 21:44:08 [notice] 552#11284: start worker process 3744
+2018/12/13 21:44:08 [notice] 3744#4972: nginx/1.15.7
+2018/12/13 21:44:08 [notice] 3744#4972: nginx/1.15.7
+2018/12/13 21:44:08 [info] 3744#4972: OS: 260200 build:9200, "", suite:100, type:1
+2018/12/13 21:44:08 [notice] 3744#4972: create thread 7996
+2018/12/13 21:44:08 [notice] 3744#4972: create thread 7996
+2018/12/13 21:44:08 [notice] 2492#9948: gracefully shutting down
+2018/12/13 21:44:08 [notice] 2492#9948: gracefully shutting down
+2018/12/13 21:44:08 [notice] 3744#4972: create thread 10284
+2018/12/13 21:44:08 [notice] 3744#4972: create thread 10284
+2018/12/13 21:44:08 [notice] 2492#2548: exiting
+2018/12/13 21:44:08 [notice] 2492#2548: exiting
+2018/12/13 21:44:08 [notice] 3744#4972: create thread 8544
+2018/12/13 21:44:08 [notice] 3744#4972: create thread 8544
+2018/12/13 21:44:09 [notice] 2492#9880: exiting
+2018/12/13 21:44:09 [notice] 2492#9880: exiting
+2018/12/13 21:44:09 [notice] 2492#9948: exit
+2018/12/13 21:44:09 [notice] 2492#9948: exit
+2018/12/13 21:44:09 [notice] 552#11284: worker process 2492 exited with code 0
+2018/12/13 21:44:09 [notice] 552#11284: worker process 2492 exited with code 0
+2018/12/13 21:44:20 [notice] 7040#11292: signal process started
+2018/12/13 21:44:20 [notice] 552#11284: reconfiguring
+2018/12/13 21:44:20 [notice] 552#11284: reconfiguring
+2018/12/13 21:44:20 [notice] 552#11284: using the "select" event method
+2018/12/13 21:44:20 [notice] 552#11284: using the "select" event method
+2018/12/13 21:44:20 [notice] 552#11284: start worker processes
+2018/12/13 21:44:20 [notice] 552#11284: start worker processes
+2018/12/13 21:44:20 [notice] 552#11284: start worker process 8888
+2018/12/13 21:44:20 [notice] 552#11284: start worker process 8888
+2018/12/13 21:44:20 [notice] 8888#1996: nginx/1.15.7
+2018/12/13 21:44:20 [notice] 8888#1996: nginx/1.15.7
+2018/12/13 21:44:20 [info] 8888#1996: OS: 260200 build:9200, "", suite:100, type:1
+2018/12/13 21:44:20 [notice] 3744#4972: gracefully shutting down
+2018/12/13 21:44:20 [notice] 8888#1996: create thread 3400
+2018/12/13 21:44:20 [notice] 3744#4972: gracefully shutting down
+2018/12/13 21:44:20 [notice] 8888#1996: create thread 3400
+2018/12/13 21:44:20 [notice] 3744#10284: exiting
+2018/12/13 21:44:20 [notice] 3744#10284: exiting
+2018/12/13 21:44:20 [notice] 8888#1996: create thread 6984
+2018/12/13 21:44:20 [notice] 8888#1996: create thread 6984
+2018/12/13 21:44:20 [notice] 8888#1996: create thread 4748
+2018/12/13 21:44:20 [notice] 8888#1996: create thread 4748
+2018/12/13 21:44:20 [notice] 3744#7996: exiting
+2018/12/13 21:44:20 [notice] 3744#7996: exiting
+2018/12/13 21:44:20 [notice] 3744#4972: exit
+2018/12/13 21:44:20 [notice] 3744#4972: exit
+2018/12/13 21:44:20 [notice] 552#11284: worker process 3744 exited with code 0
+2018/12/13 21:44:20 [notice] 552#11284: worker process 3744 exited with code 0
+2018/12/13 21:44:52 [notice] 1756#2608: signal process started
+2018/12/13 21:44:52 [notice] 552#11284: reconfiguring
+2018/12/13 21:44:52 [notice] 552#11284: reconfiguring
+2018/12/13 21:44:52 [notice] 552#11284: using the "select" event method
+2018/12/13 21:44:52 [notice] 552#11284: using the "select" event method
+2018/12/13 21:44:52 [notice] 552#11284: start worker processes
+2018/12/13 21:44:52 [notice] 552#11284: start worker processes
+2018/12/13 21:44:52 [notice] 552#11284: start worker process 1032
+2018/12/13 21:44:52 [notice] 552#11284: start worker process 1032
+2018/12/13 21:44:52 [notice] 1032#2088: nginx/1.15.7
+2018/12/13 21:44:52 [notice] 1032#2088: nginx/1.15.7
+2018/12/13 21:44:52 [info] 1032#2088: OS: 260200 build:9200, "", suite:100, type:1
+2018/12/13 21:44:52 [notice] 1032#2088: create thread 5060
+2018/12/13 21:44:52 [notice] 1032#2088: create thread 5060
+2018/12/13 21:44:52 [notice] 1032#2088: create thread 10348
+2018/12/13 21:44:52 [notice] 1032#2088: create thread 10348
+2018/12/13 21:44:52 [notice] 8888#1996: gracefully shutting down
+2018/12/13 21:44:52 [notice] 8888#1996: gracefully shutting down
+2018/12/13 21:44:52 [notice] 8888#6984: exiting
+2018/12/13 21:44:52 [notice] 1032#2088: create thread 9468
+2018/12/13 21:44:52 [notice] 8888#6984: exiting
+2018/12/13 21:44:52 [notice] 1032#2088: create thread 9468
+2018/12/13 21:44:53 [notice] 8888#3400: exiting
+2018/12/13 21:44:53 [notice] 8888#3400: exiting
+2018/12/13 21:44:53 [notice] 8888#1996: exit
+2018/12/13 21:44:53 [notice] 8888#1996: exit
+2018/12/13 21:44:53 [notice] 552#11284: worker process 8888 exited with code 0
+2018/12/13 21:44:53 [notice] 552#11284: worker process 8888 exited with code 0
+2018/12/13 21:45:10 [info] 1032#5060: *42 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2018/12/13 21:48:04 [notice] 3336#5680: signal process started
+2018/12/13 21:48:04 [notice] 552#11284: reconfiguring
+2018/12/13 21:48:04 [notice] 552#11284: reconfiguring
+2018/12/13 21:48:04 [notice] 552#11284: using the "select" event method
+2018/12/13 21:48:04 [notice] 552#11284: using the "select" event method
+2018/12/13 21:48:04 [notice] 552#11284: start worker processes
+2018/12/13 21:48:04 [notice] 552#11284: start worker processes
+2018/12/13 21:48:04 [notice] 552#11284: start worker process 5200
+2018/12/13 21:48:04 [notice] 552#11284: start worker process 5200
+2018/12/13 21:48:04 [notice] 5200#2908: nginx/1.15.7
+2018/12/13 21:48:04 [notice] 5200#2908: nginx/1.15.7
+2018/12/13 21:48:04 [info] 5200#2908: OS: 260200 build:9200, "", suite:100, type:1
+2018/12/13 21:48:04 [notice] 5200#2908: create thread 2552
+2018/12/13 21:48:04 [notice] 5200#2908: create thread 2552
+2018/12/13 21:48:04 [notice] 5200#2908: create thread 7980
+2018/12/13 21:48:04 [notice] 5200#2908: create thread 7980
+2018/12/13 21:48:04 [notice] 1032#2088: gracefully shutting down
+2018/12/13 21:48:04 [notice] 5200#2908: create thread 7240
+2018/12/13 21:48:04 [notice] 1032#2088: gracefully shutting down
+2018/12/13 21:48:04 [notice] 5200#2908: create thread 7240
+2018/12/13 21:48:04 [notice] 1032#10348: exiting
+2018/12/13 21:48:04 [notice] 1032#10348: exiting
+2018/12/13 21:48:04 [notice] 1032#5060: exiting
+2018/12/13 21:48:04 [notice] 1032#5060: exiting
+2018/12/13 21:48:04 [notice] 1032#2088: exit
+2018/12/13 21:48:04 [notice] 1032#2088: exit
+2018/12/13 21:48:04 [notice] 552#11284: worker process 1032 exited with code 0
+2018/12/13 21:48:04 [notice] 552#11284: worker process 1032 exited with code 0
+2018/12/13 21:48:19 [notice] 10564#7408: signal process started
+2018/12/13 21:48:19 [notice] 552#11284: reconfiguring
+2018/12/13 21:48:19 [notice] 552#11284: reconfiguring
+2018/12/13 21:48:19 [notice] 552#11284: using the "select" event method
+2018/12/13 21:48:19 [notice] 552#11284: using the "select" event method
+2018/12/13 21:48:19 [notice] 552#11284: start worker processes
+2018/12/13 21:48:19 [notice] 552#11284: start worker processes
+2018/12/13 21:48:19 [notice] 552#11284: start worker process 12164
+2018/12/13 21:48:19 [notice] 552#11284: start worker process 12164
+2018/12/13 21:48:19 [notice] 12164#1560: nginx/1.15.7
+2018/12/13 21:48:19 [notice] 12164#1560: nginx/1.15.7
+2018/12/13 21:48:19 [info] 12164#1560: OS: 260200 build:9200, "", suite:100, type:1
+2018/12/13 21:48:19 [notice] 12164#1560: create thread 812
+2018/12/13 21:48:19 [notice] 12164#1560: create thread 812
+2018/12/13 21:48:19 [notice] 12164#1560: create thread 7796
+2018/12/13 21:48:19 [notice] 5200#2908: gracefully shutting down
+2018/12/13 21:48:19 [notice] 12164#1560: create thread 7796
+2018/12/13 21:48:19 [notice] 5200#2908: gracefully shutting down
+2018/12/13 21:48:19 [notice] 5200#7980: exiting
+2018/12/13 21:48:19 [notice] 5200#7980: exiting
+2018/12/13 21:48:19 [notice] 12164#1560: create thread 12048
+2018/12/13 21:48:19 [notice] 12164#1560: create thread 12048
+2018/12/13 21:48:20 [info] 5200#2552: *62 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2018/12/13 21:48:20 [notice] 5200#2552: exiting
+2018/12/13 21:48:20 [notice] 5200#2552: exiting
+2018/12/13 21:48:20 [notice] 5200#2908: exit
+2018/12/13 21:48:20 [notice] 5200#2908: exit
+2018/12/13 21:48:20 [notice] 552#11284: worker process 5200 exited with code 0
+2018/12/13 21:48:20 [notice] 552#11284: worker process 5200 exited with code 0
+2018/12/13 21:48:36 [notice] 4100#4976: signal process started
+2018/12/13 21:48:36 [notice] 552#11284: reconfiguring
+2018/12/13 21:48:36 [notice] 552#11284: reconfiguring
+2018/12/13 21:48:36 [notice] 552#11284: using the "select" event method
+2018/12/13 21:48:36 [notice] 552#11284: using the "select" event method
+2018/12/13 21:48:36 [notice] 552#11284: start worker processes
+2018/12/13 21:48:36 [notice] 552#11284: start worker processes
+2018/12/13 21:48:36 [notice] 552#11284: start worker process 5944
+2018/12/13 21:48:36 [notice] 552#11284: start worker process 5944
+2018/12/13 21:48:36 [notice] 5944#3396: nginx/1.15.7
+2018/12/13 21:48:36 [notice] 5944#3396: nginx/1.15.7
+2018/12/13 21:48:36 [info] 5944#3396: OS: 260200 build:9200, "", suite:100, type:1
+2018/12/13 21:48:36 [notice] 5944#3396: create thread 12216
+2018/12/13 21:48:36 [notice] 5944#3396: create thread 12216
+2018/12/13 21:48:36 [notice] 12164#1560: gracefully shutting down
+2018/12/13 21:48:36 [notice] 12164#1560: gracefully shutting down
+2018/12/13 21:48:36 [notice] 5944#3396: create thread 1368
+2018/12/13 21:48:36 [notice] 5944#3396: create thread 1368
+2018/12/13 21:48:36 [notice] 12164#7796: exiting
+2018/12/13 21:48:36 [notice] 12164#7796: exiting
+2018/12/13 21:48:36 [notice] 5944#3396: create thread 5048
+2018/12/13 21:48:36 [notice] 5944#3396: create thread 5048
+2018/12/13 21:48:37 [info] 12164#812: *66 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2018/12/13 21:48:37 [notice] 12164#812: exiting
+2018/12/13 21:48:37 [notice] 12164#812: exiting
+2018/12/13 21:48:37 [notice] 12164#1560: exit
+2018/12/13 21:48:37 [notice] 12164#1560: exit
+2018/12/13 21:48:37 [notice] 552#11284: worker process 12164 exited with code 0
+2018/12/13 21:48:37 [notice] 552#11284: worker process 12164 exited with code 0
+2018/12/13 21:48:39 [error] 5944#12216: *67 CreateFile() "C:\Program Files (x86)\Nginx/html/favicon.ico" failed (2: FormatMessage() error:(1813)), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "golang.localhost", referrer: "http://golang.localhost/"
+2018/12/13 21:48:39 [error] 5944#12216: *67 CreateFile() "C:\Program Files (x86)\Nginx/html/favicon.ico" failed (2: FormatMessage() error:(1813)), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "golang.localhost", referrer: "http://golang.localhost/"
+2018/12/13 21:48:39 [error] 5944#12216: *67 CreateFile() "C:\Program Files (x86)\Nginx/html/favicon.ico" failed (2: FormatMessage() error:(1813)), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "golang.localhost", referrer: "http://golang.localhost/"
+2018/12/13 21:48:39 [error] 5944#12216: *67 CreateFile() "C:\Program Files (x86)\Nginx/html/favicon.ico" failed (2: FormatMessage() error:(1813)), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "golang.localhost", referrer: "http://golang.localhost/"
+2018/12/13 21:48:39 [error] 5944#12216: *67 CreateFile() "C:\Program Files (x86)\Nginx/html/favicon.ico" failed (2: FormatMessage() error:(1813)), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "golang.localhost", referrer: "http://golang.localhost/"
+2018/12/13 21:48:39 [error] 5944#12216: *67 CreateFile() "C:\Program Files (x86)\Nginx/html/favicon.ico" failed (2: FormatMessage() error:(1813)), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "golang.localhost", referrer: "http://golang.localhost/"
+2018/12/13 21:48:39 [error] 5944#12216: *67 CreateFile() "C:\Program Files (x86)\Nginx/html/favicon.ico" failed (2: FormatMessage() error:(1813)), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "golang.localhost", referrer: "http://golang.localhost/"
+2018/12/13 21:48:39 [error] 5944#12216: *67 CreateFile() "C:\Program Files (x86)\Nginx/html/favicon.ico" failed (2: FormatMessage() error:(1813)), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "golang.localhost", referrer: "http://golang.localhost/"
+2018/12/13 21:48:39 [error] 5944#12216: *67 CreateFile() "C:\Program Files (x86)\Nginx/html/favicon.ico" failed (2: FormatMessage() error:(1813)), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "golang.localhost", referrer: "http://golang.localhost/"
+2018/12/13 21:48:40 [error] 5944#12216: *67 CreateFile() "C:\Program Files (x86)\Nginx/html/favicon.ico" failed (2: FormatMessage() error:(1813)), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "golang.localhost", referrer: "http://golang.localhost/"
+2018/12/13 21:48:40 [error] 5944#12216: *67 CreateFile() "C:\Program Files (x86)\Nginx/html/favicon.ico" failed (2: FormatMessage() error:(1813)), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "golang.localhost", referrer: "http://golang.localhost/"
+2018/12/13 21:48:40 [error] 5944#12216: *67 CreateFile() "C:\Program Files (x86)\Nginx/html/favicon.ico" failed (2: FormatMessage() error:(1813)), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "golang.localhost", referrer: "http://golang.localhost/"
+2018/12/13 21:48:40 [error] 5944#12216: *67 CreateFile() "C:\Program Files (x86)\Nginx/html/favicon.ico" failed (2: FormatMessage() error:(1813)), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "golang.localhost", referrer: "http://golang.localhost/"
+2018/12/13 21:48:40 [error] 5944#12216: *67 CreateFile() "C:\Program Files (x86)\Nginx/html/favicon.ico" failed (2: FormatMessage() error:(1813)), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "golang.localhost", referrer: "http://golang.localhost/"
+2018/12/13 21:48:40 [error] 5944#12216: *67 CreateFile() "C:\Program Files (x86)\Nginx/html/favicon.ico" failed (2: FormatMessage() error:(1813)), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "golang.localhost", referrer: "http://golang.localhost/"
+2018/12/13 21:48:40 [error] 5944#12216: *67 CreateFile() "C:\Program Files (x86)\Nginx/html/favicon.ico" failed (2: FormatMessage() error:(1813)), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "golang.localhost", referrer: "http://golang.localhost/"
+2018/12/13 21:48:40 [error] 5944#12216: *67 CreateFile() "C:\Program Files (x86)\Nginx/html/favicon.ico" failed (2: FormatMessage() error:(1813)), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "golang.localhost", referrer: "http://golang.localhost/"
+2018/12/13 21:48:40 [error] 5944#12216: *67 CreateFile() "C:\Program Files (x86)\Nginx/html/favicon.ico" failed (2: FormatMessage() error:(1813)), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "golang.localhost", referrer: "http://golang.localhost/"
+2018/12/13 21:48:50 [emerg] 3120#7712: CreateFile() "C:\Program Files (x86)\Nginx/conf/sites-enabled/golang.localhost" failed (3: FormatMessage() error:(1813)) in C:\Program Files (x86)\Nginx/conf/nginx.conf:118
+2018/12/13 21:49:08 [emerg] 8868#12056: CreateFile() "C:/sites-enabled/golang.localhost" failed (3: FormatMessage() error:(1813)) in C:\Program Files (x86)\Nginx/conf/nginx.conf:118
+2018/12/13 21:49:19 [notice] 3824#6500: signal process started
+2018/12/13 21:49:19 [notice] 552#11284: reconfiguring
+2018/12/13 21:49:19 [notice] 552#11284: reconfiguring
+2018/12/13 21:49:19 [notice] 552#11284: using the "select" event method
+2018/12/13 21:49:19 [notice] 552#11284: using the "select" event method
+2018/12/13 21:49:19 [notice] 552#11284: start worker processes
+2018/12/13 21:49:19 [notice] 552#11284: start worker processes
+2018/12/13 21:49:19 [notice] 552#11284: start worker process 5124
+2018/12/13 21:49:19 [notice] 552#11284: start worker process 5124
+2018/12/13 21:49:19 [notice] 5124#11244: nginx/1.15.7
+2018/12/13 21:49:19 [notice] 5124#11244: nginx/1.15.7
+2018/12/13 21:49:19 [info] 5124#11244: OS: 260200 build:9200, "", suite:100, type:1
+2018/12/13 21:49:19 [notice] 5124#11244: create thread 4648
+2018/12/13 21:49:19 [notice] 5124#11244: create thread 4648
+2018/12/13 21:49:19 [notice] 5944#3396: gracefully shutting down
+2018/12/13 21:49:19 [notice] 5944#3396: gracefully shutting down
+2018/12/13 21:49:19 [notice] 5124#11244: create thread 9068
+2018/12/13 21:49:19 [notice] 5124#11244: create thread 9068
+2018/12/13 21:49:19 [notice] 5944#1368: exiting
+2018/12/13 21:49:19 [notice] 5944#1368: exiting
+2018/12/13 21:49:19 [notice] 5124#11244: create thread 1592
+2018/12/13 21:49:19 [notice] 5124#11244: create thread 1592
+2018/12/13 21:49:20 [info] 5944#12216: *68 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2018/12/13 21:49:20 [notice] 5944#12216: exiting
+2018/12/13 21:49:20 [notice] 5944#12216: exiting
+2018/12/13 21:49:20 [notice] 5944#3396: exit
+2018/12/13 21:49:20 [notice] 5944#3396: exit
+2018/12/13 21:49:20 [notice] 552#11284: worker process 5944 exited with code 0
+2018/12/13 21:49:20 [notice] 552#11284: worker process 5944 exited with code 0
+2018/12/13 21:49:31 [error] 11384#11204: ReadFile() "C:\Program Files (x86)\Nginx/conf/../sites-enabled/.." failed (1: FormatMessage() error:(1813))
+2018/12/13 21:49:42 [notice] 204#4300: signal process started
+2018/12/13 21:49:42 [notice] 552#11284: reconfiguring
+2018/12/13 21:49:42 [notice] 552#11284: reconfiguring
+2018/12/13 21:49:42 [notice] 552#11284: using the "select" event method
+2018/12/13 21:49:42 [notice] 552#11284: using the "select" event method
+2018/12/13 21:49:42 [notice] 552#11284: start worker processes
+2018/12/13 21:49:42 [notice] 552#11284: start worker processes
+2018/12/13 21:49:42 [notice] 552#11284: start worker process 6556
+2018/12/13 21:49:42 [notice] 552#11284: start worker process 6556
+2018/12/13 21:49:42 [notice] 6556#8272: nginx/1.15.7
+2018/12/13 21:49:42 [notice] 6556#8272: nginx/1.15.7
+2018/12/13 21:49:42 [info] 6556#8272: OS: 260200 build:9200, "", suite:100, type:1
+2018/12/13 21:49:42 [notice] 6556#8272: create thread 3040
+2018/12/13 21:49:42 [notice] 6556#8272: create thread 3040
+2018/12/13 21:49:42 [notice] 5124#11244: gracefully shutting down
+2018/12/13 21:49:42 [notice] 6556#8272: create thread 2584
+2018/12/13 21:49:42 [notice] 5124#11244: gracefully shutting down
+2018/12/13 21:49:42 [notice] 6556#8272: create thread 2584
+2018/12/13 21:49:42 [notice] 5124#9068: exiting
+2018/12/13 21:49:42 [notice] 5124#9068: exiting
+2018/12/13 21:49:42 [notice] 6556#8272: create thread 3336
+2018/12/13 21:49:42 [notice] 6556#8272: create thread 3336
+2018/12/13 21:49:43 [info] 5124#4648: *71 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2018/12/13 21:49:43 [notice] 5124#4648: exiting
+2018/12/13 21:49:43 [notice] 5124#4648: exiting
+2018/12/13 21:49:43 [notice] 5124#11244: exit
+2018/12/13 21:49:43 [notice] 5124#11244: exit
+2018/12/13 21:49:43 [notice] 552#11284: worker process 5124 exited with code 0
+2018/12/13 21:49:43 [notice] 552#11284: worker process 5124 exited with code 0
+2018/12/13 21:49:57 [notice] 6904#9812: signal process started
+2018/12/13 21:49:57 [notice] 552#11284: reconfiguring
+2018/12/13 21:49:57 [notice] 552#11284: reconfiguring
+2018/12/13 21:49:57 [notice] 552#11284: using the "select" event method
+2018/12/13 21:49:57 [notice] 552#11284: using the "select" event method
+2018/12/13 21:49:57 [notice] 552#11284: start worker processes
+2018/12/13 21:49:57 [notice] 552#11284: start worker processes
+2018/12/13 21:49:57 [notice] 552#11284: start worker process 8320
+2018/12/13 21:49:57 [notice] 552#11284: start worker process 8320
+2018/12/13 21:49:57 [notice] 8320#10348: nginx/1.15.7
+2018/12/13 21:49:57 [notice] 8320#10348: nginx/1.15.7
+2018/12/13 21:49:57 [info] 8320#10348: OS: 260200 build:9200, "", suite:100, type:1
+2018/12/13 21:49:57 [notice] 8320#10348: create thread 7400
+2018/12/13 21:49:57 [notice] 8320#10348: create thread 7400
+2018/12/13 21:49:57 [notice] 6556#8272: gracefully shutting down
+2018/12/13 21:49:57 [notice] 6556#8272: gracefully shutting down
+2018/12/13 21:49:57 [notice] 8320#10348: create thread 9612
+2018/12/13 21:49:57 [notice] 8320#10348: create thread 9612
+2018/12/13 21:49:57 [notice] 6556#2584: exiting
+2018/12/13 21:49:57 [notice] 6556#2584: exiting
+2018/12/13 21:49:57 [notice] 8320#10348: create thread 10564
+2018/12/13 21:49:57 [notice] 8320#10348: create thread 10564
+2018/12/13 21:49:59 [info] 6556#3040: *76 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2018/12/13 21:49:59 [notice] 6556#3040: exiting
+2018/12/13 21:49:59 [notice] 6556#3040: exiting
+2018/12/13 21:49:59 [notice] 6556#8272: exit
+2018/12/13 21:49:59 [notice] 6556#8272: exit
+2018/12/13 21:49:59 [notice] 552#11284: worker process 6556 exited with code 0
+2018/12/13 21:49:59 [notice] 552#11284: worker process 6556 exited with code 0
+2018/12/13 21:50:40 [info] 8320#7400: *79 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2018/12/13 21:51:16 [error] 8320#7400: *94 CreateFile() "C:\Program Files (x86)\Nginx/html/favicon.ico" failed (2: FormatMessage() error:(1813)), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "asd.localhost", referrer: "http://asd.localhost/"
+2018/12/13 21:51:16 [error] 8320#7400: *94 CreateFile() "C:\Program Files (x86)\Nginx/html/favicon.ico" failed (2: FormatMessage() error:(1813)), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "asd.localhost", referrer: "http://asd.localhost/"
+2018/12/13 21:51:16 [error] 8320#7400: *94 CreateFile() "C:\Program Files (x86)\Nginx/html/favicon.ico" failed (2: FormatMessage() error:(1813)), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "asd.localhost", referrer: "http://asd.localhost/"
+2018/12/13 21:51:33 [info] 8320#7400: *95 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2018/12/13 21:51:33 [error] 8320#7400: *99 CreateFile() "C:\Program Files (x86)\Nginx/html/favicon.ico" failed (2: FormatMessage() error:(1813)), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "test.localhost", referrer: "http://test.localhost/"
+2018/12/13 21:51:33 [error] 8320#7400: *99 CreateFile() "C:\Program Files (x86)\Nginx/html/favicon.ico" failed (2: FormatMessage() error:(1813)), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "test.localhost", referrer: "http://test.localhost/"
+2018/12/13 21:51:33 [error] 8320#7400: *99 CreateFile() "C:\Program Files (x86)\Nginx/html/favicon.ico" failed (2: FormatMessage() error:(1813)), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "test.localhost", referrer: "http://test.localhost/"
+2018/12/13 21:52:12 [notice] 8176#10180: signal process started
+2018/12/13 21:52:12 [notice] 552#11284: reconfiguring
+2018/12/13 21:52:12 [notice] 552#11284: reconfiguring
+2018/12/13 21:52:12 [notice] 552#11284: using the "select" event method
+2018/12/13 21:52:12 [notice] 552#11284: using the "select" event method
+2018/12/13 21:52:12 [notice] 552#11284: start worker processes
+2018/12/13 21:52:12 [notice] 552#11284: start worker processes
+2018/12/13 21:52:12 [notice] 552#11284: start worker process 11932
+2018/12/13 21:52:12 [notice] 552#11284: start worker process 11932
+2018/12/13 21:52:12 [notice] 11932#6472: nginx/1.15.7
+2018/12/13 21:52:12 [notice] 11932#6472: nginx/1.15.7
+2018/12/13 21:52:12 [info] 11932#6472: OS: 260200 build:9200, "", suite:100, type:1
+2018/12/13 21:52:12 [notice] 11932#6472: create thread 8116
+2018/12/13 21:52:12 [notice] 11932#6472: create thread 8116
+2018/12/13 21:52:12 [notice] 8320#10348: gracefully shutting down
+2018/12/13 21:52:12 [notice] 8320#10348: gracefully shutting down
+2018/12/13 21:52:12 [notice] 11932#6472: create thread 6700
+2018/12/13 21:52:12 [notice] 8320#9612: exiting
+2018/12/13 21:52:12 [notice] 11932#6472: create thread 6700
+2018/12/13 21:52:12 [notice] 8320#9612: exiting
+2018/12/13 21:52:12 [notice] 11932#6472: create thread 1012
+2018/12/13 21:52:12 [notice] 11932#6472: create thread 1012
+2018/12/13 21:52:34 [info] 8320#7400: *100 client timed out (10060: FormatMessage() error:(1813)) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2018/12/13 21:52:34 [notice] 8320#7400: exiting
+2018/12/13 21:52:34 [notice] 8320#7400: exiting
+2018/12/13 21:52:34 [notice] 8320#10348: exit
+2018/12/13 21:52:34 [notice] 8320#10348: exit
+2018/12/13 21:52:34 [notice] 552#11284: worker process 8320 exited with code 0
+2018/12/13 21:52:34 [notice] 552#11284: worker process 8320 exited with code 0
+2018/12/13 21:52:38 [notice] 5580#3160: signal process started
+2018/12/13 21:52:38 [notice] 552#11284: reconfiguring
+2018/12/13 21:52:38 [notice] 552#11284: reconfiguring
+2018/12/13 21:52:38 [notice] 552#11284: using the "select" event method
+2018/12/13 21:52:38 [notice] 552#11284: using the "select" event method
+2018/12/13 21:52:38 [notice] 552#11284: start worker processes
+2018/12/13 21:52:38 [notice] 552#11284: start worker processes
+2018/12/13 21:52:38 [notice] 552#11284: start worker process 356
+2018/12/13 21:52:38 [notice] 552#11284: start worker process 356
+2018/12/13 21:52:38 [notice] 356#116: nginx/1.15.7
+2018/12/13 21:52:38 [notice] 356#116: nginx/1.15.7
+2018/12/13 21:52:38 [info] 356#116: OS: 260200 build:9200, "", suite:100, type:1
+2018/12/13 21:52:38 [notice] 11932#6472: gracefully shutting down
+2018/12/13 21:52:38 [notice] 11932#6472: gracefully shutting down
+2018/12/13 21:52:38 [notice] 356#116: create thread 3136
+2018/12/13 21:52:38 [notice] 11932#6700: exiting
+2018/12/13 21:52:38 [notice] 356#116: create thread 3136
+2018/12/13 21:52:38 [notice] 11932#6700: exiting
+2018/12/13 21:52:38 [notice] 356#116: create thread 7844
+2018/12/13 21:52:38 [notice] 356#116: create thread 7844
+2018/12/13 21:52:38 [notice] 356#116: create thread 8472
+2018/12/13 21:52:38 [notice] 356#116: create thread 8472
+2018/12/13 21:52:38 [notice] 11932#8116: exiting
+2018/12/13 21:52:38 [notice] 11932#8116: exiting
+2018/12/13 21:52:38 [notice] 11932#6472: exit
+2018/12/13 21:52:38 [notice] 11932#6472: exit
+2018/12/13 21:52:38 [notice] 552#11284: worker process 11932 exited with code 0
+2018/12/13 21:52:38 [notice] 552#11284: worker process 11932 exited with code 0
+2018/12/13 21:53:15 [notice] 1300#7516: signal process started
+2018/12/13 21:53:15 [notice] 552#11284: reconfiguring
+2018/12/13 21:53:15 [notice] 552#11284: reconfiguring
+2018/12/13 21:53:15 [notice] 552#11284: using the "select" event method
+2018/12/13 21:53:15 [notice] 552#11284: using the "select" event method
+2018/12/13 21:53:15 [notice] 552#11284: start worker processes
+2018/12/13 21:53:15 [notice] 552#11284: start worker processes
+2018/12/13 21:53:15 [notice] 552#11284: start worker process 11344
+2018/12/13 21:53:15 [notice] 552#11284: start worker process 11344
+2018/12/13 21:53:15 [notice] 11344#6344: nginx/1.15.7
+2018/12/13 21:53:15 [notice] 11344#6344: nginx/1.15.7
+2018/12/13 21:53:15 [info] 11344#6344: OS: 260200 build:9200, "", suite:100, type:1
+2018/12/13 21:53:15 [notice] 11344#6344: create thread 11268
+2018/12/13 21:53:15 [notice] 11344#6344: create thread 11268
+2018/12/13 21:53:15 [notice] 356#116: gracefully shutting down
+2018/12/13 21:53:15 [notice] 356#116: gracefully shutting down
+2018/12/13 21:53:15 [notice] 11344#6344: create thread 7364
+2018/12/13 21:53:15 [notice] 11344#6344: create thread 7364
+2018/12/13 21:53:15 [notice] 356#7844: exiting
+2018/12/13 21:53:15 [notice] 356#7844: exiting
+2018/12/13 21:53:15 [notice] 11344#6344: create thread 3124
+2018/12/13 21:53:15 [notice] 11344#6344: create thread 3124
+2018/12/13 21:53:16 [info] 356#3136: *103 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2018/12/13 21:53:16 [notice] 356#3136: exiting
+2018/12/13 21:53:16 [notice] 356#3136: exiting
+2018/12/13 21:53:16 [notice] 356#116: exit
+2018/12/13 21:53:16 [notice] 356#116: exit
+2018/12/13 21:53:16 [notice] 552#11284: worker process 356 exited with code 0
+2018/12/13 21:53:16 [notice] 552#11284: worker process 356 exited with code 0
+2018/12/13 21:53:43 [info] 11344#11268: *107 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2018/12/13 22:00:47 [notice] 9936#6524: signal process started
+2018/12/13 22:00:47 [notice] 552#11284: reconfiguring
+2018/12/13 22:00:47 [notice] 552#11284: reconfiguring
+2018/12/13 22:00:47 [notice] 552#11284: using the "select" event method
+2018/12/13 22:00:47 [notice] 552#11284: using the "select" event method
+2018/12/13 22:00:47 [notice] 552#11284: start worker processes
+2018/12/13 22:00:47 [notice] 552#11284: start worker processes
+2018/12/13 22:00:47 [notice] 552#11284: start worker process 5544
+2018/12/13 22:00:47 [notice] 552#11284: start worker process 5544
+2018/12/13 22:00:47 [notice] 5544#10708: nginx/1.15.7
+2018/12/13 22:00:47 [notice] 5544#10708: nginx/1.15.7
+2018/12/13 22:00:47 [info] 5544#10708: OS: 260200 build:9200, "", suite:100, type:1
+2018/12/13 22:00:47 [notice] 5544#10708: create thread 7264
+2018/12/13 22:00:47 [notice] 5544#10708: create thread 7264
+2018/12/13 22:00:47 [notice] 5544#10708: create thread 11932
+2018/12/13 22:00:47 [notice] 5544#10708: create thread 11932
+2018/12/13 22:00:47 [notice] 11344#6344: gracefully shutting down
+2018/12/13 22:00:47 [notice] 11344#6344: gracefully shutting down
+2018/12/13 22:00:47 [notice] 5544#10708: create thread 8448
+2018/12/13 22:00:47 [notice] 5544#10708: create thread 8448
+2018/12/13 22:00:47 [notice] 11344#7364: exiting
+2018/12/13 22:00:47 [notice] 11344#7364: exiting
+2018/12/13 22:00:47 [notice] 11344#11268: exiting
+2018/12/13 22:00:47 [notice] 11344#11268: exiting
+2018/12/13 22:00:47 [notice] 11344#6344: exit
+2018/12/13 22:00:47 [notice] 11344#6344: exit
+2018/12/13 22:00:47 [notice] 552#11284: worker process 11344 exited with code 0
+2018/12/13 22:00:47 [notice] 552#11284: worker process 11344 exited with code 0
+2018/12/13 22:01:06 [info] 5544#7264: *116 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2018/12/13 22:01:47 [emerg] 12180#11180: no "ssl_certificate" is defined for the "listen ... ssl" directive in C:\Program Files (x86)\Nginx/conf/../sites-enabled/golang.localhost.conf:1
+2018/12/13 22:01:49 [emerg] 7172#5492: no "ssl_certificate" is defined for the "listen ... ssl" directive in C:\Program Files (x86)\Nginx/conf/../sites-enabled/golang.localhost.conf:1
+2018/12/13 22:01:59 [emerg] 7688#3972: BIO_new_file("C:\Program Files (x86)\Nginx/conf/cert.pem") failed (SSL: error:02001002:system library:fopen:No such file or directory:fopen('C:\Program Files (x86)\Nginx/conf/cert.pem','r') error:2006D080:BIO routines:BIO_new_file:no such file)
+2018/12/13 22:03:02 [notice] 4024#10252: signal process started
+2018/12/13 22:03:02 [notice] 552#11284: reconfiguring
+2018/12/13 22:03:02 [notice] 552#11284: reconfiguring
+2018/12/13 22:03:02 [notice] 552#11284: using the "select" event method
+2018/12/13 22:03:02 [notice] 552#11284: using the "select" event method
+2018/12/13 22:03:02 [notice] 552#11284: start worker processes
+2018/12/13 22:03:02 [notice] 552#11284: start worker processes
+2018/12/13 22:03:02 [notice] 552#11284: start worker process 3904
+2018/12/13 22:03:02 [notice] 552#11284: start worker process 3904
+2018/12/13 22:03:02 [notice] 3904#7968: nginx/1.15.7
+2018/12/13 22:03:02 [notice] 3904#7968: nginx/1.15.7
+2018/12/13 22:03:02 [info] 3904#7968: OS: 260200 build:9200, "", suite:100, type:1
+2018/12/13 22:03:02 [notice] 3904#7968: create thread 12084
+2018/12/13 22:03:02 [notice] 3904#7968: create thread 12084
+2018/12/13 22:03:02 [notice] 5544#10708: gracefully shutting down
+2018/12/13 22:03:02 [notice] 3904#7968: create thread 9472
+2018/12/13 22:03:02 [notice] 5544#10708: gracefully shutting down
+2018/12/13 22:03:02 [notice] 3904#7968: create thread 9472
+2018/12/13 22:03:02 [notice] 5544#11932: exiting
+2018/12/13 22:03:02 [notice] 5544#11932: exiting
+2018/12/13 22:03:02 [notice] 3904#7968: create thread 12020
+2018/12/13 22:03:02 [notice] 3904#7968: create thread 12020
+2018/12/13 22:03:02 [notice] 5544#7264: exiting
+2018/12/13 22:03:02 [notice] 5544#7264: exiting
+2018/12/13 22:03:02 [notice] 5544#10708: exit
+2018/12/13 22:03:02 [notice] 5544#10708: exit
+2018/12/13 22:03:02 [notice] 552#11284: worker process 5544 exited with code 0
+2018/12/13 22:03:02 [notice] 552#11284: worker process 5544 exited with code 0
+2018/12/13 22:03:35 [info] 3904#12084: *123 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2018/12/13 22:05:15 [notice] 9464#2892: signal process started
+2018/12/13 22:05:15 [notice] 552#11284: reconfiguring
+2018/12/13 22:05:15 [notice] 552#11284: reconfiguring
+2018/12/13 22:05:15 [notice] 552#11284: using the "select" event method
+2018/12/13 22:05:15 [notice] 552#11284: using the "select" event method
+2018/12/13 22:05:15 [notice] 552#11284: start worker processes
+2018/12/13 22:05:15 [notice] 552#11284: start worker processes
+2018/12/13 22:05:15 [notice] 552#11284: start worker process 2920
+2018/12/13 22:05:15 [notice] 552#11284: start worker process 2920
+2018/12/13 22:05:15 [notice] 2920#4552: nginx/1.15.7
+2018/12/13 22:05:15 [notice] 2920#4552: nginx/1.15.7
+2018/12/13 22:05:15 [info] 2920#4552: OS: 260200 build:9200, "", suite:100, type:1
+2018/12/13 22:05:15 [notice] 2920#4552: create thread 2528
+2018/12/13 22:05:15 [notice] 2920#4552: create thread 2528
+2018/12/13 22:05:15 [notice] 2920#4552: create thread 8624
+2018/12/13 22:05:15 [notice] 2920#4552: create thread 8624
+2018/12/13 22:05:15 [notice] 3904#7968: gracefully shutting down
+2018/12/13 22:05:15 [notice] 2920#4552: create thread 11468
+2018/12/13 22:05:15 [notice] 3904#7968: gracefully shutting down
+2018/12/13 22:05:15 [notice] 2920#4552: create thread 11468
+2018/12/13 22:05:15 [notice] 3904#9472: exiting
+2018/12/13 22:05:15 [notice] 3904#9472: exiting
+2018/12/13 22:05:16 [notice] 3904#12084: exiting
+2018/12/13 22:05:16 [notice] 3904#12084: exiting
+2018/12/13 22:05:16 [notice] 3904#7968: exit
+2018/12/13 22:05:16 [notice] 3904#7968: exit
+2018/12/13 22:05:16 [notice] 552#11284: worker process 3904 exited with code 0
+2018/12/13 22:05:16 [notice] 552#11284: worker process 3904 exited with code 0
+2018/12/13 22:05:17 [error] 2920#2528: *131 invalid port in upstream "127.0.0.1:3000haha", client: 127.0.0.1, server: golang.localhost, request: "GET /haha HTTP/1.1", host: "golang.localhost"
+2018/12/13 22:05:17 [error] 2920#2528: *131 invalid port in upstream "127.0.0.1:3000haha", client: 127.0.0.1, server: golang.localhost, request: "GET /haha HTTP/1.1", host: "golang.localhost"
+2018/12/13 22:05:17 [error] 2920#2528: *131 invalid port in upstream "127.0.0.1:3000haha", client: 127.0.0.1, server: golang.localhost, request: "GET /haha HTTP/1.1", host: "golang.localhost"
+2018/12/13 22:05:18 [error] 2920#2528: *132 invalid port in upstream "127.0.0.1:3000haha", client: 127.0.0.1, server: golang.localhost, request: "GET /haha HTTP/1.1", host: "golang.localhost"
+2018/12/13 22:05:18 [error] 2920#2528: *132 invalid port in upstream "127.0.0.1:3000haha", client: 127.0.0.1, server: golang.localhost, request: "GET /haha HTTP/1.1", host: "golang.localhost"
+2018/12/13 22:05:18 [error] 2920#2528: *132 invalid port in upstream "127.0.0.1:3000haha", client: 127.0.0.1, server: golang.localhost, request: "GET /haha HTTP/1.1", host: "golang.localhost"
+2018/12/13 22:05:18 [error] 2920#2528: *133 invalid port in upstream "127.0.0.1:3000haha", client: 127.0.0.1, server: golang.localhost, request: "GET /haha HTTP/1.1", host: "golang.localhost"
+2018/12/13 22:05:18 [error] 2920#2528: *133 invalid port in upstream "127.0.0.1:3000haha", client: 127.0.0.1, server: golang.localhost, request: "GET /haha HTTP/1.1", host: "golang.localhost"
+2018/12/13 22:05:18 [error] 2920#2528: *133 invalid port in upstream "127.0.0.1:3000haha", client: 127.0.0.1, server: golang.localhost, request: "GET /haha HTTP/1.1", host: "golang.localhost"
+2018/12/13 22:05:29 [notice] 2300#7856: signal process started
+2018/12/13 22:05:29 [notice] 552#11284: reconfiguring
+2018/12/13 22:05:29 [notice] 552#11284: reconfiguring
+2018/12/13 22:05:29 [notice] 552#11284: using the "select" event method
+2018/12/13 22:05:29 [notice] 552#11284: using the "select" event method
+2018/12/13 22:05:29 [notice] 552#11284: start worker processes
+2018/12/13 22:05:29 [notice] 552#11284: start worker processes
+2018/12/13 22:05:29 [notice] 552#11284: start worker process 7608
+2018/12/13 22:05:29 [notice] 552#11284: start worker process 7608
+2018/12/13 22:05:29 [notice] 7608#5752: nginx/1.15.7
+2018/12/13 22:05:29 [notice] 7608#5752: nginx/1.15.7
+2018/12/13 22:05:29 [info] 7608#5752: OS: 260200 build:9200, "", suite:100, type:1
+2018/12/13 22:05:29 [notice] 2920#4552: gracefully shutting down
+2018/12/13 22:05:29 [notice] 7608#5752: create thread 12076
+2018/12/13 22:05:29 [notice] 2920#4552: gracefully shutting down
+2018/12/13 22:05:29 [notice] 7608#5752: create thread 12076
+2018/12/13 22:05:29 [notice] 2920#8624: exiting
+2018/12/13 22:05:29 [notice] 2920#8624: exiting
+2018/12/13 22:05:29 [notice] 7608#5752: create thread 6728
+2018/12/13 22:05:29 [notice] 7608#5752: create thread 6728
+2018/12/13 22:05:29 [notice] 7608#5752: create thread 9064
+2018/12/13 22:05:29 [notice] 7608#5752: create thread 9064
+2018/12/13 22:05:30 [info] 2920#2528: *134 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2018/12/13 22:05:30 [notice] 2920#2528: exiting
+2018/12/13 22:05:30 [notice] 2920#2528: exiting
+2018/12/13 22:05:30 [notice] 2920#4552: exit
+2018/12/13 22:05:30 [notice] 2920#4552: exit
+2018/12/13 22:05:30 [notice] 552#11284: worker process 2920 exited with code 0
+2018/12/13 22:05:30 [notice] 552#11284: worker process 2920 exited with code 0
+2018/12/13 22:05:42 [info] 7608#12076: *137 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2018/12/13 22:06:27 [notice] 4820#2300: signal process started
+2018/12/13 22:06:27 [notice] 552#11284: reconfiguring
+2018/12/13 22:06:27 [notice] 552#11284: reconfiguring
+2018/12/13 22:06:27 [notice] 552#11284: using the "select" event method
+2018/12/13 22:06:27 [notice] 552#11284: using the "select" event method
+2018/12/13 22:06:27 [notice] 552#11284: start worker processes
+2018/12/13 22:06:27 [notice] 552#11284: start worker processes
+2018/12/13 22:06:27 [notice] 552#11284: start worker process 7516
+2018/12/13 22:06:27 [notice] 552#11284: start worker process 7516
+2018/12/13 22:06:27 [notice] 7516#10136: nginx/1.15.7
+2018/12/13 22:06:27 [notice] 7516#10136: nginx/1.15.7
+2018/12/13 22:06:27 [info] 7516#10136: OS: 260200 build:9200, "", suite:100, type:1
+2018/12/13 22:06:27 [notice] 7516#10136: create thread 576
+2018/12/13 22:06:27 [notice] 7608#5752: gracefully shutting down
+2018/12/13 22:06:27 [notice] 7516#10136: create thread 576
+2018/12/13 22:06:27 [notice] 7608#5752: gracefully shutting down
+2018/12/13 22:06:27 [notice] 7608#6728: exiting
+2018/12/13 22:06:27 [notice] 7608#6728: exiting
+2018/12/13 22:06:27 [notice] 7516#10136: create thread 4552
+2018/12/13 22:06:27 [notice] 7516#10136: create thread 4552
+2018/12/13 22:06:27 [notice] 7516#10136: create thread 2920
+2018/12/13 22:06:27 [notice] 7516#10136: create thread 2920
+2018/12/13 22:06:27 [notice] 7608#12076: exiting
+2018/12/13 22:06:27 [notice] 7608#12076: exiting
+2018/12/13 22:06:27 [notice] 7608#5752: exit
+2018/12/13 22:06:27 [notice] 7608#5752: exit
+2018/12/13 22:06:27 [notice] 552#11284: worker process 7608 exited with code 0
+2018/12/13 22:06:27 [notice] 552#11284: worker process 7608 exited with code 0
+2018/12/13 22:06:34 [notice] 8444#8604: signal process started
+2018/12/13 22:06:34 [notice] 552#11284: reconfiguring
+2018/12/13 22:06:34 [notice] 552#11284: reconfiguring
+2018/12/13 22:06:34 [notice] 552#11284: using the "select" event method
+2018/12/13 22:06:34 [notice] 552#11284: using the "select" event method
+2018/12/13 22:06:34 [notice] 552#11284: start worker processes
+2018/12/13 22:06:34 [notice] 552#11284: start worker processes
+2018/12/13 22:06:34 [notice] 552#11284: start worker process 9812
+2018/12/13 22:06:34 [notice] 552#11284: start worker process 9812
+2018/12/13 22:06:34 [notice] 9812#3924: nginx/1.15.7
+2018/12/13 22:06:34 [notice] 9812#3924: nginx/1.15.7
+2018/12/13 22:06:34 [info] 9812#3924: OS: 260200 build:9200, "", suite:100, type:1
+2018/12/13 22:06:34 [notice] 7516#10136: gracefully shutting down
+2018/12/13 22:06:34 [notice] 9812#3924: create thread 11196
+2018/12/13 22:06:34 [notice] 7516#10136: gracefully shutting down
+2018/12/13 22:06:34 [notice] 9812#3924: create thread 11196
+2018/12/13 22:06:34 [notice] 7516#4552: exiting
+2018/12/13 22:06:34 [notice] 7516#4552: exiting
+2018/12/13 22:06:34 [notice] 9812#3924: create thread 5608
+2018/12/13 22:06:34 [notice] 9812#3924: create thread 5608
+2018/12/13 22:06:34 [notice] 9812#3924: create thread 3912
+2018/12/13 22:06:34 [notice] 9812#3924: create thread 3912
+2018/12/13 22:06:36 [notice] 7516#576: exiting
+2018/12/13 22:06:36 [notice] 7516#576: exiting
+2018/12/13 22:06:36 [notice] 7516#10136: exit
+2018/12/13 22:06:36 [notice] 7516#10136: exit
+2018/12/13 22:06:36 [notice] 552#11284: worker process 7516 exited with code 0
+2018/12/13 22:06:36 [notice] 552#11284: worker process 7516 exited with code 0
+2018/12/13 22:07:06 [info] 9812#11196: *162 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2018/12/13 22:07:19 [notice] 848#7756: signal process started
+2018/12/13 22:07:19 [notice] 552#11284: reconfiguring
+2018/12/13 22:07:19 [notice] 552#11284: reconfiguring
+2018/12/13 22:07:19 [notice] 552#11284: using the "select" event method
+2018/12/13 22:07:19 [notice] 552#11284: using the "select" event method
+2018/12/13 22:07:19 [notice] 552#11284: start worker processes
+2018/12/13 22:07:19 [notice] 552#11284: start worker processes
+2018/12/13 22:07:19 [notice] 552#11284: start worker process 2308
+2018/12/13 22:07:19 [notice] 552#11284: start worker process 2308
+2018/12/13 22:07:19 [notice] 2308#6552: nginx/1.15.7
+2018/12/13 22:07:19 [notice] 2308#6552: nginx/1.15.7
+2018/12/13 22:07:19 [info] 2308#6552: OS: 260200 build:9200, "", suite:100, type:1
+2018/12/13 22:07:19 [notice] 2308#6552: create thread 6292
+2018/12/13 22:07:19 [notice] 2308#6552: create thread 6292
+2018/12/13 22:07:19 [notice] 9812#3924: gracefully shutting down
+2018/12/13 22:07:19 [notice] 9812#3924: gracefully shutting down
+2018/12/13 22:07:19 [notice] 2308#6552: create thread 4588
+2018/12/13 22:07:19 [notice] 9812#5608: exiting
+2018/12/13 22:07:19 [notice] 2308#6552: create thread 4588
+2018/12/13 22:07:19 [notice] 9812#5608: exiting
+2018/12/13 22:07:19 [notice] 2308#6552: create thread 7952
+2018/12/13 22:07:19 [notice] 2308#6552: create thread 7952
+2018/12/13 22:07:20 [notice] 9812#11196: exiting
+2018/12/13 22:07:20 [notice] 9812#11196: exiting
+2018/12/13 22:07:20 [notice] 9812#3924: exit
+2018/12/13 22:07:20 [notice] 9812#3924: exit
+2018/12/13 22:07:20 [notice] 552#11284: worker process 9812 exited with code 0
+2018/12/13 22:07:20 [notice] 552#11284: worker process 9812 exited with code 0
+2018/12/13 22:08:01 [info] 2308#6292: *177 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2018/12/13 22:08:01 [error] 2308#6292: *175 upstream prematurely closed connection while reading response header from upstream, client: 127.0.0.1, server: golang.localhost, request: "GET /haha HTTP/1.1", upstream: "http://127.0.0.1:3000/haha", host: "golang.localhost"
+2018/12/13 22:08:01 [error] 2308#6292: *175 upstream prematurely closed connection while reading response header from upstream, client: 127.0.0.1, server: golang.localhost, request: "GET /haha HTTP/1.1", upstream: "http://127.0.0.1:3000/haha", host: "golang.localhost"
+2018/12/13 22:08:01 [error] 2308#6292: *175 upstream prematurely closed connection while reading response header from upstream, client: 127.0.0.1, server: golang.localhost, request: "GET /haha HTTP/1.1", upstream: "http://127.0.0.1:3000/haha", host: "golang.localhost"
+2018/12/13 22:08:03 [error] 2308#6292: *175 upstream prematurely closed connection while reading response header from upstream, client: 127.0.0.1, server: golang.localhost, request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:3000/", host: "golang.localhost"
+2018/12/13 22:08:03 [error] 2308#6292: *175 upstream prematurely closed connection while reading response header from upstream, client: 127.0.0.1, server: golang.localhost, request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:3000/", host: "golang.localhost"
+2018/12/13 22:08:03 [error] 2308#6292: *175 upstream prematurely closed connection while reading response header from upstream, client: 127.0.0.1, server: golang.localhost, request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:3000/", host: "golang.localhost"
+2018/12/13 22:08:04 [error] 2308#6292: *175 upstream prematurely closed connection while reading response header from upstream, client: 127.0.0.1, server: golang.localhost, request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:3000/", host: "golang.localhost"
+2018/12/13 22:08:04 [error] 2308#6292: *175 upstream prematurely closed connection while reading response header from upstream, client: 127.0.0.1, server: golang.localhost, request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:3000/", host: "golang.localhost"
+2018/12/13 22:08:04 [error] 2308#6292: *175 upstream prematurely closed connection while reading response header from upstream, client: 127.0.0.1, server: golang.localhost, request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:3000/", host: "golang.localhost"
+2018/12/13 22:08:05 [error] 2308#6292: *175 upstream prematurely closed connection while reading response header from upstream, client: 127.0.0.1, server: golang.localhost, request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:3000/", host: "golang.localhost"
+2018/12/13 22:08:05 [error] 2308#6292: *175 upstream prematurely closed connection while reading response header from upstream, client: 127.0.0.1, server: golang.localhost, request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:3000/", host: "golang.localhost"
+2018/12/13 22:08:05 [error] 2308#6292: *175 upstream prematurely closed connection while reading response header from upstream, client: 127.0.0.1, server: golang.localhost, request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:3000/", host: "golang.localhost"
+2018/12/13 22:08:05 [error] 2308#6292: *175 upstream prematurely closed connection while reading response header from upstream, client: 127.0.0.1, server: golang.localhost, request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:3000/", host: "golang.localhost"
+2018/12/13 22:08:05 [error] 2308#6292: *175 upstream prematurely closed connection while reading response header from upstream, client: 127.0.0.1, server: golang.localhost, request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:3000/", host: "golang.localhost"
+2018/12/13 22:08:05 [error] 2308#6292: *175 upstream prematurely closed connection while reading response header from upstream, client: 127.0.0.1, server: golang.localhost, request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:3000/", host: "golang.localhost"
+2018/12/13 22:08:05 [error] 2308#6292: *175 upstream prematurely closed connection while reading response header from upstream, client: 127.0.0.1, server: golang.localhost, request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:3000/", host: "golang.localhost"
+2018/12/13 22:08:05 [error] 2308#6292: *175 upstream prematurely closed connection while reading response header from upstream, client: 127.0.0.1, server: golang.localhost, request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:3000/", host: "golang.localhost"
+2018/12/13 22:08:05 [error] 2308#6292: *175 upstream prematurely closed connection while reading response header from upstream, client: 127.0.0.1, server: golang.localhost, request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:3000/", host: "golang.localhost"
+2018/12/13 22:08:05 [error] 2308#6292: *175 upstream prematurely closed connection while reading response header from upstream, client: 127.0.0.1, server: golang.localhost, request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:3000/", host: "golang.localhost"
+2018/12/13 22:08:05 [error] 2308#6292: *175 upstream prematurely closed connection while reading response header from upstream, client: 127.0.0.1, server: golang.localhost, request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:3000/", host: "golang.localhost"
+2018/12/13 22:08:05 [error] 2308#6292: *175 upstream prematurely closed connection while reading response header from upstream, client: 127.0.0.1, server: golang.localhost, request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:3000/", host: "golang.localhost"
+2018/12/13 22:08:05 [error] 2308#6292: *175 upstream prematurely closed connection while reading response header from upstream, client: 127.0.0.1, server: golang.localhost, request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:3000/", host: "golang.localhost"
+2018/12/13 22:08:05 [error] 2308#6292: *175 upstream prematurely closed connection while reading response header from upstream, client: 127.0.0.1, server: golang.localhost, request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:3000/", host: "golang.localhost"
+2018/12/13 22:08:05 [error] 2308#6292: *175 upstream prematurely closed connection while reading response header from upstream, client: 127.0.0.1, server: golang.localhost, request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:3000/", host: "golang.localhost"
+2018/12/13 22:12:40 [error] 2308#6292: *205 upstream timed out (10060: FormatMessage() error:(1813)) while connecting to upstream, client: 127.0.0.1, server: golang.localhost, request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:3000/", host: "golang.localhost"
+2018/12/13 22:12:40 [error] 2308#6292: *205 upstream timed out (10060: FormatMessage() error:(1813)) while connecting to upstream, client: 127.0.0.1, server: golang.localhost, request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:3000/", host: "golang.localhost"
+2018/12/13 22:12:40 [error] 2308#6292: *205 upstream timed out (10060: FormatMessage() error:(1813)) while connecting to upstream, client: 127.0.0.1, server: golang.localhost, request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:3000/", host: "golang.localhost"
+2018/12/13 22:12:40 [info] 2308#6292: *207 client timed out (10060: FormatMessage() error:(1813)) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2018/12/13 22:13:07 [error] 2308#6292: *205 upstream prematurely closed connection while reading response header from upstream, client: 127.0.0.1, server: golang.localhost, request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:3000/", host: "golang.localhost"
+2018/12/13 22:13:07 [error] 2308#6292: *205 upstream prematurely closed connection while reading response header from upstream, client: 127.0.0.1, server: golang.localhost, request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:3000/", host: "golang.localhost"
+2018/12/13 22:13:07 [error] 2308#6292: *205 upstream prematurely closed connection while reading response header from upstream, client: 127.0.0.1, server: golang.localhost, request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:3000/", host: "golang.localhost"
+2018/12/13 22:13:08 [error] 2308#6292: *205 upstream prematurely closed connection while reading response header from upstream, client: 127.0.0.1, server: golang.localhost, request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:3000/", host: "golang.localhost"
+2018/12/13 22:13:08 [error] 2308#6292: *205 upstream prematurely closed connection while reading response header from upstream, client: 127.0.0.1, server: golang.localhost, request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:3000/", host: "golang.localhost"
+2018/12/13 22:13:08 [error] 2308#6292: *205 upstream prematurely closed connection while reading response header from upstream, client: 127.0.0.1, server: golang.localhost, request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:3000/", host: "golang.localhost"
+2018/12/13 22:13:08 [error] 2308#6292: *205 upstream prematurely closed connection while reading response header from upstream, client: 127.0.0.1, server: golang.localhost, request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:3000/", host: "golang.localhost"
+2018/12/13 22:13:08 [error] 2308#6292: *205 upstream prematurely closed connection while reading response header from upstream, client: 127.0.0.1, server: golang.localhost, request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:3000/", host: "golang.localhost"
+2018/12/13 22:13:08 [error] 2308#6292: *205 upstream prematurely closed connection while reading response header from upstream, client: 127.0.0.1, server: golang.localhost, request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:3000/", host: "golang.localhost"
+2018/12/13 22:13:09 [error] 2308#6292: *205 upstream prematurely closed connection while reading response header from upstream, client: 127.0.0.1, server: golang.localhost, request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:3000/", host: "golang.localhost"
+2018/12/13 22:13:09 [error] 2308#6292: *205 upstream prematurely closed connection while reading response header from upstream, client: 127.0.0.1, server: golang.localhost, request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:3000/", host: "golang.localhost"
+2018/12/13 22:13:09 [error] 2308#6292: *205 upstream prematurely closed connection while reading response header from upstream, client: 127.0.0.1, server: golang.localhost, request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:3000/", host: "golang.localhost"
+2018/12/13 22:17:00 [info] 2308#6292: *219 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2018/12/13 22:17:01 [info] 2308#6292: *227 client 127.0.0.1 closed keepalive connection
+2018/12/13 22:17:02 [info] 2308#6292: *233 client 127.0.0.1 closed keepalive connection
+2018/12/13 22:17:07 [info] 2308#6292: *236 client 127.0.0.1 closed keepalive connection
+2018/12/13 22:17:51 [info] 2308#6292: *239 client 127.0.0.1 closed keepalive connection
+2018/12/13 22:18:51 [info] 2308#6292: *247 client 127.0.0.1 closed keepalive connection
+2018/12/13 22:19:46 [info] 2308#6292: *250 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2018/12/13 22:23:46 [info] 2308#6292: *253 client 127.0.0.1 closed keepalive connection
+2018/12/13 22:23:50 [info] 2308#6292: *252 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2018/12/13 22:24:51 [notice] 8296#4300: signal process started
+2018/12/13 22:24:51 [notice] 552#11284: exiting
+2018/12/13 22:24:51 [notice] 552#11284: exiting
+2018/12/13 22:24:51 [notice] 2308#6552: gracefully shutting down
+2018/12/13 22:24:51 [notice] 2308#6552: gracefully shutting down
+2018/12/13 22:24:51 [notice] 2308#4588: exiting
+2018/12/13 22:24:51 [notice] 2308#4588: exiting
+2018/12/13 22:24:51 [notice] 2308#6292: exiting
+2018/12/13 22:24:51 [notice] 2308#6292: exiting
+2018/12/13 22:24:51 [notice] 2308#6552: exit
+2018/12/13 22:24:51 [notice] 2308#6552: exit
+2018/12/13 22:24:51 [notice] 552#11284: worker process 2308 exited with code 0
+2018/12/13 22:24:51 [notice] 552#11284: worker process 2308 exited with code 0
+2018/12/13 22:24:51 [notice] 552#11284: exit
+2018/12/13 22:24:51 [notice] 552#11284: exit
+2018/12/13 22:25:06 [notice] 12588#10136: using the "select" event method
+2018/12/13 22:25:06 [notice] 12588#10136: using the "select" event method
+2018/12/13 22:25:06 [notice] 12588#10136: nginx/1.15.7
+2018/12/13 22:25:06 [notice] 12588#10136: nginx/1.15.7
+2018/12/13 22:25:06 [info] 12588#10136: OS: 260200 build:9200, "", suite:100, type:1
+2018/12/13 22:25:06 [notice] 12588#10136: start worker processes
+2018/12/13 22:25:06 [notice] 12588#10136: start worker processes
+2018/12/13 22:25:06 [notice] 12588#10136: start worker process 5752
+2018/12/13 22:25:06 [notice] 12588#10136: start worker process 5752
+2018/12/13 22:25:06 [notice] 5752#6464: nginx/1.15.7
+2018/12/13 22:25:06 [notice] 5752#6464: nginx/1.15.7
+2018/12/13 22:25:06 [info] 5752#6464: OS: 260200 build:9200, "", suite:100, type:1
+2018/12/13 22:25:06 [notice] 5752#6464: create thread 6716
+2018/12/13 22:25:06 [notice] 5752#6464: create thread 6716
+2018/12/13 22:25:06 [notice] 5752#6464: create thread 2000
+2018/12/13 22:25:06 [notice] 5752#6464: create thread 2000
+2018/12/13 22:25:06 [notice] 5752#6464: create thread 12020
+2018/12/13 22:25:06 [notice] 5752#6464: create thread 12020
+2018/12/13 22:25:09 [info] 5752#6716: *4 client 127.0.0.1 closed keepalive connection
+2018/12/13 22:25:10 [info] 5752#6716: *9 client 127.0.0.1 closed keepalive connection
+2018/12/13 22:25:12 [notice] 12588#10136: worker process 5752 exited with code C000013A
+2018/12/13 22:25:12 [notice] 12588#10136: worker process 5752 exited with code C000013A
+2018/12/13 22:25:20 [notice] 2804#8436: using the "select" event method
+2018/12/13 22:25:20 [notice] 2804#8436: using the "select" event method
+2018/12/13 22:25:20 [notice] 2804#8436: nginx/1.15.7
+2018/12/13 22:25:20 [notice] 2804#8436: nginx/1.15.7
+2018/12/13 22:25:20 [info] 2804#8436: OS: 260200 build:9200, "", suite:100, type:1
+2018/12/13 22:25:20 [notice] 2804#8436: start worker processes
+2018/12/13 22:25:20 [notice] 2804#8436: start worker processes
+2018/12/13 22:25:20 [notice] 2804#8436: start worker process 6728
+2018/12/13 22:25:20 [notice] 2804#8436: start worker process 6728
+2018/12/13 22:25:20 [notice] 6728#3368: nginx/1.15.7
+2018/12/13 22:25:20 [notice] 6728#3368: nginx/1.15.7
+2018/12/13 22:25:20 [info] 6728#3368: OS: 260200 build:9200, "", suite:100, type:1
+2018/12/13 22:25:20 [notice] 6728#3368: create thread 5996
+2018/12/13 22:25:20 [notice] 6728#3368: create thread 5996
+2018/12/13 22:25:20 [notice] 6728#3368: create thread 13156
+2018/12/13 22:25:20 [notice] 6728#3368: create thread 13156
+2018/12/13 22:25:20 [notice] 6728#3368: create thread 12180
+2018/12/13 22:25:20 [notice] 6728#3368: create thread 12180
+2018/12/13 22:25:21 [info] 6728#5996: *5 client 127.0.0.1 closed keepalive connection
+2018/12/13 22:25:22 [info] 6728#5996: *10 client 127.0.0.1 closed keepalive connection
+2018/12/13 22:25:31 [info] 6728#5996: *13 client 127.0.0.1 closed keepalive connection
+2018/12/13 22:25:35 [info] 6728#5996: *3 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2018/12/13 22:25:35 [info] 6728#5996: *4 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2018/12/13 22:25:36 [info] 6728#5996: *18 client 127.0.0.1 closed keepalive connection
+2018/12/13 22:27:09 [info] 6728#5996: *23 client 127.0.0.1 closed keepalive connection
+2018/12/13 22:27:10 [info] 6728#5996: *26 client 127.0.0.1 closed keepalive connection
+2018/12/13 22:27:49 [info] 6728#5996: *22 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2018/12/13 22:27:49 [info] 6728#5996: *29 client 127.0.0.1 closed keepalive connection
+2018/12/13 22:27:53 [info] 6728#5996: *37 client 127.0.0.1 closed keepalive connection
+2018/12/13 22:29:56 [info] 6728#5996: *42 client 127.0.0.1 closed keepalive connection
+2018/12/13 22:30:55 [info] 6728#5996: *41 client timed out (10060: FormatMessage() error:(1813)) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2018/12/13 22:31:19 [error] 6728#5996: *44 upstream prematurely closed connection while reading response header from upstream, client: 127.0.0.1, server: golang.localhost, request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:3000/", host: "golang.localhost"
+2018/12/13 22:31:19 [error] 6728#5996: *44 upstream prematurely closed connection while reading response header from upstream, client: 127.0.0.1, server: golang.localhost, request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:3000/", host: "golang.localhost"
+2018/12/13 22:31:19 [error] 6728#5996: *44 upstream prematurely closed connection while reading response header from upstream, client: 127.0.0.1, server: golang.localhost, request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:3000/", host: "golang.localhost"
+2018/12/13 22:32:20 [info] 6728#5996: *46 client timed out (10060: FormatMessage() error:(1813)) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2018/12/13 22:37:56 [info] 6728#5996: *58 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2018/12/13 22:37:56 [info] 6728#5996: *59 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2018/12/13 22:47:54 [error] 6728#5996: *80 upstream prematurely closed connection while reading response header from upstream, client: 127.0.0.1, server: golang.localhost, request: "GET /haha HTTP/1.1", upstream: "http://127.0.0.1:3000/haha", host: "golang.localhost"
+2018/12/13 22:47:54 [error] 6728#5996: *80 upstream prematurely closed connection while reading response header from upstream, client: 127.0.0.1, server: golang.localhost, request: "GET /haha HTTP/1.1", upstream: "http://127.0.0.1:3000/haha", host: "golang.localhost"
+2018/12/13 22:47:54 [error] 6728#5996: *80 upstream prematurely closed connection while reading response header from upstream, client: 127.0.0.1, server: golang.localhost, request: "GET /haha HTTP/1.1", upstream: "http://127.0.0.1:3000/haha", host: "golang.localhost"
+2018/12/13 22:47:56 [error] 6728#5996: *80 upstream prematurely closed connection while reading response header from upstream, client: 127.0.0.1, server: golang.localhost, request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:3000/", host: "golang.localhost"
+2018/12/13 22:47:56 [error] 6728#5996: *80 upstream prematurely closed connection while reading response header from upstream, client: 127.0.0.1, server: golang.localhost, request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:3000/", host: "golang.localhost"
+2018/12/13 22:47:56 [error] 6728#5996: *80 upstream prematurely closed connection while reading response header from upstream, client: 127.0.0.1, server: golang.localhost, request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:3000/", host: "golang.localhost"
+2018/12/13 22:47:57 [error] 6728#5996: *80 upstream prematurely closed connection while reading response header from upstream, client: 127.0.0.1, server: golang.localhost, request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:3000/", host: "golang.localhost"
+2018/12/13 22:47:57 [error] 6728#5996: *80 upstream prematurely closed connection while reading response header from upstream, client: 127.0.0.1, server: golang.localhost, request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:3000/", host: "golang.localhost"
+2018/12/13 22:47:57 [error] 6728#5996: *80 upstream prematurely closed connection while reading response header from upstream, client: 127.0.0.1, server: golang.localhost, request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:3000/", host: "golang.localhost"
+2018/12/13 22:48:06 [info] 6728#5996: *82 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2018/12/13 22:53:27 [info] 6728#5996: *158 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2018/12/13 22:57:09 [info] 6728#5996: *168 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2018/12/13 22:59:39 [info] 6728#5996: *184 client timed out (10060: FormatMessage() error:(1813)) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2018/12/13 23:01:41 [info] 6728#5996: *187 client timed out (10060: FormatMessage() error:(1813)) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2018/12/13 23:03:50 [info] 6728#5996: *191 client timed out (10060: FormatMessage() error:(1813)) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2018/12/13 23:05:12 [info] 6728#5996: *224 client timed out (10060: FormatMessage() error:(1813)) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2018/12/13 23:06:36 [info] 6728#5996: *235 client timed out (10060: FormatMessage() error:(1813)) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2018/12/13 23:09:16 [info] 6728#5996: *243 client 127.0.0.1 closed keepalive connection
+2018/12/13 23:09:30 [info] 6728#5996: *238 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2018/12/13 23:14:15 [notice] 20580#17584: signal process started
+2018/12/13 23:14:15 [notice] 2804#8436: reconfiguring
+2018/12/13 23:14:15 [notice] 2804#8436: reconfiguring
+2018/12/13 23:14:15 [notice] 2804#8436: using the "select" event method
+2018/12/13 23:14:15 [notice] 2804#8436: using the "select" event method
+2018/12/13 23:14:15 [notice] 2804#8436: start worker processes
+2018/12/13 23:14:15 [notice] 2804#8436: start worker processes
+2018/12/13 23:14:15 [notice] 2804#8436: start worker process 19816
+2018/12/13 23:14:15 [notice] 2804#8436: start worker process 19816
+2018/12/13 23:14:15 [notice] 19816#20340: nginx/1.15.7
+2018/12/13 23:14:15 [notice] 19816#20340: nginx/1.15.7
+2018/12/13 23:14:15 [info] 19816#20340: OS: 260200 build:9200, "", suite:100, type:1
+2018/12/13 23:14:15 [notice] 19816#20340: create thread 20592
+2018/12/13 23:14:15 [notice] 19816#20340: create thread 20592
+2018/12/13 23:14:15 [notice] 19816#20340: create thread 10680
+2018/12/13 23:14:15 [notice] 19816#20340: create thread 10680
+2018/12/13 23:14:15 [notice] 19816#20340: create thread 21276
+2018/12/13 23:14:15 [notice] 19816#20340: create thread 21276
+2018/12/13 23:14:15 [notice] 6728#3368: gracefully shutting down
+2018/12/13 23:14:15 [notice] 6728#3368: gracefully shutting down
+2018/12/13 23:14:15 [notice] 6728#13156: exiting
+2018/12/13 23:14:15 [notice] 6728#13156: exiting
+2018/12/13 23:14:15 [notice] 6728#5996: exiting
+2018/12/13 23:14:15 [notice] 6728#5996: exiting
+2018/12/13 23:14:15 [notice] 6728#3368: exit
+2018/12/13 23:14:15 [notice] 6728#3368: exit
+2018/12/13 23:14:15 [notice] 2804#8436: worker process 6728 exited with code 0
+2018/12/13 23:14:15 [notice] 2804#8436: worker process 6728 exited with code 0
