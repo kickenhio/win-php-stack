@@ -1,0 +1,38 @@
+#!/bin/bash
+SERVICE=$1
+COMMAND=$2
+
+function processing() {
+    COUNT=$(tasklist | findstr "$1" | wc -l)
+    echo $COUNT
+}
+
+if [ $1 == 'nginx' ]; then
+    if [ $2 == 'start' ]; then
+        cd /c/Program\ Files\ \(x86\)/nginx/
+        PS=$(processing nginx)
+        if [ $PS == "0" ]; then
+            start nginx
+            echo 'Nginx is warming up...'
+            PSP=$(processing cgi)
+            if [ $PSP == "0" ]; then
+                cd /c/Program\ Files/PHP/v7\.2\.15
+                start //B "" php-cgi.exe -b 127.0.0.1:9000
+                echo 'Booting up PHP-CGI'
+            fi
+        else
+            echo 'Nginx is already running'
+        fi
+    else
+        cd /c/Program\ Files\ \(x86\)/nginx/
+        PS=$(processing nginx)
+        if [ $PS == "0" ]; then
+            echo "Nginx service is not running!"
+        else
+            ./nginx.exe -s $2
+            echo "Processing $2 for nginx service..."
+        fi
+    fi
+else
+    echo 'No such a service'
+fi
