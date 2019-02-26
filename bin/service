@@ -18,6 +18,9 @@ if [ $1 == 'nginx' ]; then
             if [ $PSP == "0" ]; then
                 cd /c/Program\ Files/PHP/v7\.2\.15
                 start //B "" php-cgi.exe -b 127.0.0.1:9000
+                start //B "" php-cgi.exe -b 127.0.0.1:9001
+                start //B "" php-cgi.exe -b 127.0.0.1:9002
+                start //B "" php-cgi.exe -b 127.0.0.1:9003
                 echo 'Booting up PHP-CGI'
             fi
         else
