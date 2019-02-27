@@ -5,8 +5,9 @@ PHPEXEC=$(php.exe -i | grep php.exe | head --lines 1)
 PHPEXEC=${PHPEXEC#*>}
 PHPDIR=${PHPEXEC%\/php.exe*}
 PHPDIR=$(echo $PHPDIR | tr -d '\r')
-NGINXPATH=$(pwd)
+NGINXPATH="$(dirname "$0")"
 NGINXPATH=${NGINXPATH%\/bin*}
+
 
 function processing() {
     COUNT=$(tasklist | findstr "$1" | wc -l)
