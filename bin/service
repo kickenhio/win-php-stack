@@ -1,40 +1,49 @@
 #!/bin/bash
-SERVICE=$1
-COMMAND=$2
+SERVICE="$1"
+COMMAND="$2"
+PHPEXEC=$(php.exe -i | grep php.exe | head --lines 1)
+PHPEXEC=${PHPEXEC#*>}
+PHPDIR=${PHPEXEC%\/php.exe*}
+PHPDIR=$(echo $PHPDIR | tr -d '\r')
+NGINXPATH=$(pwd)
+NGINXPATH=${NGINXPATH%\/bin*}
 
 function processing() {
     COUNT=$(tasklist | findstr "$1" | wc -l)
     echo $COUNT
 }
 
-if [ $1 == 'nginx' ]; then
-    if [ $2 == 'start' ]; then
-        cd /c/Program\ Files\ \(x86\)/nginx/
+if [ $SERVICE ] && [ $SERVICE == 'nginx' ]; then
+    if [ $COMMAND ] && [ $COMMAND == 'start' ]; then
+        cd "$NGINXPATH"
         PS=$(processing nginx)
         if [ $PS == "0" ]; then
             start nginx
             echo 'Nginx is warming up...'
             PSP=$(processing cgi)
             if [ $PSP == "0" ]; then
-                cd /c/Program\ Files/PHP/v7\.2\.15
+                cd "$PHPDIR"
                 start //B "" php-cgi.exe -b 127.0.0.1:9000
                 start //B "" php-cgi.exe -b 127.0.0.1:9001
                 start //B "" php-cgi.exe -b 127.0.0.1:9002
                 start //B "" php-cgi.exe -b 127.0.0.1:9003
-                echo 'Booting up PHP-CGI'
+                start //B "" php-cgi.exe -b 127.0.0.1:9004
+                echo 'Booting up 5 PHP-CGI processes'
             fi
         else
             echo 'Nginx is already running'
         fi
-    else
-        cd /c/Program\ Files\ \(x86\)/nginx/
+    elif [ $COMMAND ]; then
+        cd "$NGINXPATH"
         PS=$(processing nginx)
         if [ $PS == "0" ]; then
             echo "Nginx service is not running!"
         else
-            ./nginx.exe -s $2
-            echo "Processing $2 for nginx service..."
+            ./nginx.exe -s $COMMAND
+            echo "Processing $COMMAND for nginx service..."
         fi
+    else
+        echo 'No command provided'
     fi
 else
     echo 'No such a service'
