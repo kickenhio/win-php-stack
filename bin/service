@@ -14,6 +14,15 @@ function processing() {
     echo $COUNT
 }
 
+function terminate() {
+    PSP=$(processing cgi)
+    MESSAGE="No cgi processes to kill"
+    if [ $PSP != "0" ]; then
+        MESSAGE=$(taskkill //IM "$1" //F)
+    fi
+    echo $MESSAGE
+}
+
 if [ $SERVICE ] && [ $SERVICE == 'nginx' ]; then
     if [ $COMMAND ] && [ $COMMAND == 'start' ]; then
         cd "$NGINXPATH"
@@ -42,6 +51,16 @@ if [ $SERVICE ] && [ $SERVICE == 'nginx' ]; then
         else
             ./nginx.exe -s $COMMAND
             echo "Processing $COMMAND for nginx service..."
+        fi
+        echo $(terminate "php-cgi.exe")
+        if [ $COMMAND != 'stop' ]; then
+            cd "$PHPDIR"
+            start //B "" php-cgi.exe -b 127.0.0.1:9000
+            start //B "" php-cgi.exe -b 127.0.0.1:9001
+            start //B "" php-cgi.exe -b 127.0.0.1:9002
+            start //B "" php-cgi.exe -b 127.0.0.1:9003
+            start //B "" php-cgi.exe -b 127.0.0.1:9004
+            echo 'Booting up 5 PHP-CGI processes'
         fi
     else
         echo 'No command provided'
