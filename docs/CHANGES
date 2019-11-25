@@ -1,4 +1,177 @@
 
+Changes with nginx 1.17.6                                        19 Nov 2019
+
+    *) Feature: the $proxy_protocol_server_addr and
+       $proxy_protocol_server_port variables.
+
+    *) Feature: the "limit_conn_dry_run" directive.
+
+    *) Feature: the $limit_req_status and $limit_conn_status variables.
+
+
+Changes with nginx 1.17.5                                        22 Oct 2019
+
+    *) Feature: now nginx uses ioctl(FIONREAD), if available, to avoid
+       reading from a fast connection for a long time.
+
+    *) Bugfix: incomplete escaped characters at the end of the request URI
+       were ignored.
+
+    *) Bugfix: "/." and "/.." at the end of the request URI were not
+       normalized.
+
+    *) Bugfix: in the "merge_slashes" directive.
+
+    *) Bugfix: in the "ignore_invalid_headers" directive.
+       Thanks to Alan Kemp.
+
+    *) Bugfix: nginx could not be built with MinGW-w64 gcc 8.1 or newer.
+
+
+Changes with nginx 1.17.4                                        24 Sep 2019
+
+    *) Change: better detection of incorrect client behavior in HTTP/2.
+
+    *) Change: in handling of not fully read client request body when
+       returning errors in HTTP/2.
+
+    *) Bugfix: the "worker_shutdown_timeout" directive might not work when
+       using HTTP/2.
+
+    *) Bugfix: a segmentation fault might occur in a worker process when
+       using HTTP/2 and the "proxy_request_buffering" directive.
+
+    *) Bugfix: the ECONNABORTED error log level was "crit" instead of
+       "error" on Windows when using SSL.
+
+    *) Bugfix: nginx ignored extra data when using chunked transfer
+       encoding.
+
+    *) Bugfix: nginx always returned the 500 error if the "return" directive
+       was used and an error occurred during reading client request body.
+
+    *) Bugfix: in memory allocation error handling.
+
+
+Changes with nginx 1.17.3                                        13 Aug 2019
+
+    *) Security: when using HTTP/2 a client might cause excessive memory
+       consumption and CPU usage (CVE-2019-9511, CVE-2019-9513,
+       CVE-2019-9516).
+
+    *) Bugfix: "zero size buf" alerts might appear in logs when using
+       gzipping; the bug had appeared in 1.17.2.
+
+    *) Bugfix: a segmentation fault might occur in a worker process if the
+       "resolver" directive was used in SMTP proxy.
+
+
+Changes with nginx 1.17.2                                        23 Jul 2019
+
+    *) Change: minimum supported zlib version is 1.2.0.4.
+       Thanks to Ilya Leoshkevich.
+
+    *) Change: the $r->internal_redirect() embedded perl method now expects
+       escaped URIs.
+
+    *) Feature: it is now possible to switch to a named location using the
+       $r->internal_redirect() embedded perl method.
+
+    *) Bugfix: in error handling in embedded perl.
+
+    *) Bugfix: a segmentation fault might occur on start or during
+       reconfiguration if hash bucket size larger than 64 kilobytes was used
+       in the configuration.
+
+    *) Bugfix: nginx might hog CPU during unbuffered proxying and when
+       proxying WebSocket connections if the select, poll, or /dev/poll
+       methods were used.
+
+    *) Bugfix: in the ngx_http_xslt_filter_module.
+
+    *) Bugfix: in the ngx_http_ssi_filter_module.
+
+
+Changes with nginx 1.17.1                                        25 Jun 2019
+
+    *) Feature: the "limit_req_dry_run" directive.
+
+    *) Feature: when using the "hash" directive inside the "upstream" block
+       an empty hash key now triggers round-robin balancing.
+       Thanks to Niklas Keller.
+
+    *) Bugfix: a segmentation fault might occur in a worker process if
+       caching was used along with the "image_filter" directive, and errors
+       with code 415 were redirected with the "error_page" directive; the
+       bug had appeared in 1.11.10.
+
+    *) Bugfix: a segmentation fault might occur in a worker process if
+       embedded perl was used; the bug had appeared in 1.7.3.
+
+
+Changes with nginx 1.17.0                                        21 May 2019
+
+    *) Feature: variables support in the "limit_rate" and "limit_rate_after"
+       directives.
+
+    *) Feature: variables support in the "proxy_upload_rate" and
+       "proxy_download_rate" directives in the stream module.
+
+    *) Change: minimum supported OpenSSL version is 0.9.8.
+
+    *) Change: now the postpone filter is always built.
+
+    *) Bugfix: the "include" directive did not work inside the "if" and
+       "limit_except" blocks.
+
+    *) Bugfix: in byte ranges processing.
+
+
+Changes with nginx 1.15.12                                       16 Apr 2019
+
+    *) Bugfix: a segmentation fault might occur in a worker process if
+       variables were used in the "ssl_certificate" or "ssl_certificate_key"
+       directives and OCSP stapling was enabled.
+
+
+Changes with nginx 1.15.11                                       09 Apr 2019
+
+    *) Bugfix: in the "ssl_stapling_file" directive on Windows.
+
+
+Changes with nginx 1.15.10                                       26 Mar 2019
+
+    *) Change: when using a hostname in the "listen" directive nginx now
+       creates listening sockets for all addresses the hostname resolves to
+       (previously, only the first address was used).
+
+    *) Feature: port ranges in the "listen" directive.
+
+    *) Feature: loading of SSL certificates and secret keys from variables.
+
+    *) Workaround: the $ssl_server_name variable might be empty when using
+       OpenSSL 1.1.1.
+
+    *) Bugfix: nginx/Windows could not be built with Visual Studio 2015 or
+       newer; the bug had appeared in 1.15.9.
+
+
+Changes with nginx 1.15.9                                        26 Feb 2019
+
+    *) Feature: variables support in the "ssl_certificate" and
+       "ssl_certificate_key" directives.
+
+    *) Feature: the "poll" method is now available on Windows when using
+       Windows Vista or newer.
+
+    *) Bugfix: if the "select" method was used on Windows and an error
+       occurred while establishing a backend connection, nginx waited for
+       the connection establishment timeout to expire.
+
+    *) Bugfix: the "proxy_upload_rate" and "proxy_download_rate" directives
+       in the stream module worked incorrectly when proxying UDP datagrams.
+
+
 Changes with nginx 1.15.8                                        25 Dec 2018
 
     *) Feature: the $upstream_bytes_sent variable.
