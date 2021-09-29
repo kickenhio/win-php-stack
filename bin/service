@@ -25,6 +25,15 @@ if [ $SERVICE ] && [ $SERVICE == 'nginx' ]; then
         else
             echo 'Nginx is already running'
         fi
+        
+        #RUN FPM
+        NPS=$(processing fpm)
+        if [ $NPS == "0" ]; then
+            start //B "" fpm
+            echo 'FPM manager is warming up...'
+        else
+            echo 'FPM manager is already running'
+        fi
     elif [ $COMMAND ]; then
         cd "$NGINXPATH"
         PS=$(processing nginx)
