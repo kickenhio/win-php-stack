@@ -34,6 +34,15 @@ if [ $SERVICE ] && [ $SERVICE == 'nginx' ]; then
         else
             echo 'FPM manager is already running'
         fi
+
+        #RUN FPM
+        NPS=$(processing fotoredis)
+        if [ $NPS == "0" ]; then
+            start //B "" fotoredis
+            echo 'Mini-redis is warming up...'
+        else
+            echo 'Mini-redis is already running'
+        fi
     elif [ $COMMAND ]; then
         cd "$NGINXPATH"
         PS=$(processing nginx)
