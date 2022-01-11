@@ -29,6 +29,8 @@ if [ $SERVICE ] && [ $SERVICE == 'nginx' ]; then
                 ./nginx.exe -s $COMMAND
                 echo 'Nginx stopped'
             fi
+        elif [ $COMMAND == 'restart' ]; then
+            service nginx reload
         elif [ $COMMAND == 'reload' ]; then
             if [ $PS == "0" ]; then
                 echo 'Nginx is not running'
@@ -51,6 +53,9 @@ if [ $SERVICE ] && [ $SERVICE == 'redis' ]; then
         else
             echo 'Biedis is already running'
         fi
+    elif [ $COMMAND == 'restart' ]; then
+        service redis stop
+        service redis start
     elif [ $COMMAND == 'stop' ]; then
         if [ $BDS == "0" ]; then
             echo 'Cannot stop not running nginx service =)'
