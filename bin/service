@@ -22,12 +22,14 @@ if [ ! -f "$NGINXPATH/conf/upstreams.conf" ]; then
 fi
 
 if [ ! -f "$NGINXPATH/conf/nginx.conf" ]; then
-    echo -e "\e[1;32mINITIALIZING NGINX.CONF FILE\e[0m"
+    echo -e "\e[1;33mINITIALIZING NGINX.CONF FILE\e[0m"
+    
     WINPATH=$(cygpath -w "$NGINXPATH")
     TEST=$(echo "${WINPATH}" | sed 's;\\;\\/;g')
     COMMAND='s/'"\$ROOTDIR"'/'"${TEST}"'/g'
     sed "$COMMAND" "${NGINXPATH}/services/nginx/nginx.conf" > "${NGINXPATH}/conf/nginx.conf"
-    echo -e "\e[1;31mDONE\e[0m"
+
+    echo -e "\e[1;32mDONE\e[0m"
 fi
 
 if [ $SERVICE ] && [ $SERVICE == 'init' ]; then
