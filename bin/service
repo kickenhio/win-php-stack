@@ -1,60 +1,94 @@
 #!/bin/bash
 SERVICE="$1"
 COMMAND="$2"
-PHPEXEC=$(php.exe -i | grep php.exe | head --lines 1)
-PHPEXEC=${PHPEXEC#*>}
-PHPDIR=${PHPEXEC%\/php.exe*}
-PHPDIR=$(echo $PHPDIR | tr -d '\r')
 NGINXPATH="$(dirname "$0")"
 NGINXPATH=${NGINXPATH%\/bin*}
-
+PHPVERSION="7.4.2"
 
 function processing() {
     COUNT=$(tasklist | findstr "$1" | wc -l)
     echo $COUNT
 }
 
-
 if [ $SERVICE ] && [ $SERVICE == 'nginx' ]; then
-    if [ $COMMAND ] && [ $COMMAND == 'start' ]; then
+    if [ $COMMAND ]; then
         cd "$NGINXPATH"
         PS=$(processing nginx)
-        if [ $PS == "0" ]; then
-            start nginx
-            echo 'Nginx is warming up...'
-        else
-            echo 'Nginx is already running'
-        fi
         
-        #RUN FPM
-        NPS=$(processing fpm)
-        if [ $NPS == "0" ]; then
-            start //B "" fpm
-            echo 'FPM manager is warming up...'
-        else
-            echo 'FPM manager is already running'
-        fi
-
-        #RUN FPM
-        NPS=$(processing fotoredis)
-        if [ $NPS == "0" ]; then
-            start //B "" fotoredis
-            echo 'Mini-redis is warming up...'
-        else
-            echo 'Mini-redis is already running'
-        fi
-    elif [ $COMMAND ]; then
-        cd "$NGINXPATH"
-        PS=$(processing nginx)
-        if [ $PS == "0" ]; then
-            echo "Nginx service is not running!"
-        else
-            ./nginx.exe -s $COMMAND
-            echo "Processing $COMMAND for nginx service..."
+        if [ $COMMAND == 'start' ]; then
+            if [ $PS == "0" ]; then
+                start nginx
+                echo 'Nginx is warming up...'
+            else
+                echo 'Nginx is already running'
+            fi
+        elif [ $COMMAND == 'stop' ]; then
+            if [ $PS == "0" ]; then
+                echo 'Cannot stop not running nginx service =)'
+            else
+                ./nginx.exe -s $COMMAND
+                echo 'Nginx stopped'
+            fi
+        elif [ $COMMAND == 'reload' ]; then
+            if [ $PS == "0" ]; then
+                echo 'Nginx is not running'
+            else
+                ./nginx.exe -s $COMMAND
+                echo 'Nginx is reloading configuration'
+            fi
         fi
     else
-        echo 'No command provided'
+        echo 'Missing command'
     fi
-else
-    echo 'No such a service'
+fi
+
+if [ $SERVICE ] && [ $SERVICE == 'redis' ]; then
+    BDS=$(processing biedis)
+    if [ $COMMAND == 'start' ]; then
+        if [ $BDS == "0" ]; then
+            start //B "" biedis
+            echo 'Biedis is warming up...'
+        else
+            echo 'Biedis is already running'
+        fi
+    elif [ $COMMAND == 'stop' ]; then
+        if [ $BDS == "0" ]; then
+            echo 'Cannot stop not running nginx service =)'
+        else
+            taskkill //IM "biedis.exe" //F
+            echo 'Nginx stopped'
+        fi
+    fi
+fi
+
+if [ $SERVICE ] && [ $SERVICE == 'fpm' ]; then
+    BDS=$(processing fpm)
+    PHPPATH="$NGINXPATH/php/php-$PHPVERSION"
+    
+    if [ $COMMAND == 'start' ]; then
+        if [ $BDS == "0" ]; then
+            start //B "" fpm "$PHPPATH" 9001 9002 9004 9005 9006 9007 9008 9008 9009 9012 9013
+            echo 'FPM is warming up...'
+        else
+            echo 'FPM is already running'
+        fi
+    elif [ $COMMAND == 'restart' ]; then
+        service fpm stop
+        service fpm start
+    elif [ $COMMAND == 'stop' ]; then
+        if [ $BDS == "0" ]; then
+            echo 'Cannot stop not running fpm service =)'
+        else
+            taskkill //IM "fpm.exe" //F
+            echo 'FPM stopped'
+        fi
+
+        CGI=$(processing php-cgi)
+        if [ $CGI == "0" ]; then
+            echo 'WORKER CGI PROCESSES ARE STOPPED'
+        else
+            taskkill //IM "php-cgi.exe" //F
+            echo 'FPM stopped'
+        fi
+    fi
 fi
