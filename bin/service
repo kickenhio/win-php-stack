@@ -10,6 +10,40 @@ function processing() {
     echo $COUNT
 }
 
+# function terminate() {
+#     # service nginx stop
+#     # service redis stop
+#     # service fpm stop
+# }
+
+if [ ! -f "$NGINXPATH/conf/upstreams.conf" ]; then
+    echo -e "nie ma pliku"
+    # service init
+fi
+
+if [ ! -f "$NGINXPATH/conf/nginx.conf" ]; then
+    echo -e "\e[1;32mINITIALIZING NGINX.CONF FILE\e[0m"
+    WINPATH=$(cygpath -w "$NGINXPATH")
+    TEST=$(echo "${WINPATH}" | sed 's;\\;\\/;g')
+    COMMAND='s/'"\$ROOTDIR"'/'"${TEST}"'/g'
+    sed "$COMMAND" "${NGINXPATH}/services/nginx/nginx.conf" > "${NGINXPATH}/conf/nginx.conf"
+    echo -e "\e[1;31mDONE\e[0m"
+fi
+
+if [ $SERVICE ] && [ $SERVICE == 'init' ]; then
+    echo -e "SERVICE IS NOT PROPERLY INITIALIZED. STARTING..."
+
+    echo -e "GENERATING CONF FILE..."
+    echo -e "DOING RESERVATION FOR PORT RANGE"
+    # cp "service/nginx.conf.template" "service/nginx.conf"
+    echo -e ""
+
+    # TODO
+    # skopiowac plik service/nginx.conf.template ze zmiana ROOTDIR na aktualny katalogu z zmiennej $NGINXPATH
+    # wygenerowac plik upstreamconf z listy portow na podstawie wolnych portow z zakresu 9001-9099
+    # notice: zabezpieczyc sytuacje, gdy start nginxa odpala inne porty niz cgi
+fi
+
 if [ $SERVICE ] && [ $SERVICE == 'nginx' ]; then
     if [ $COMMAND ]; then
         cd "$NGINXPATH"
@@ -68,10 +102,12 @@ fi
 
 if [ $SERVICE ] && [ $SERVICE == 'fpm' ]; then
     BDS=$(processing fpm)
-    PHPPATH="$NGINXPATH/php/php-$PHPVERSION"
     
     if [ $COMMAND == 'start' ]; then
         if [ $BDS == "0" ]; then
+            # parsuj upstreams.conf po wersje php
+            # parsuj conf/upstreams.conf po porty dla stream
+            PHPPATH="$NGINXPATH/php/php-$PHPVERSION"
             start //B "" fpm "$PHPPATH" 9001 9002 9004 9005 9006 9007 9008 9008 9009 9012 9013
             echo 'FPM is warming up...'
         else
