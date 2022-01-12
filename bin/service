@@ -11,8 +11,9 @@ function processing() {
 }
 
 if [ ! -f "$NGINXPATH/conf/upstreams.conf" ]; then
-    echo -e "nie ma pliku"
-    # "$NGINXPATH/services/nginx/upstreams.exe" "${NGINXPATH}/upstreams.conf" "${NGINXPATH}/conf/upstreams.conf"
+    echo -e "\e[1;33mMissing \e[1;31mupstreams.conf\e[1;33m file. Copying...\e[0m"
+    "$NGINXPATH/services/nginx/upstream.exe" "${NGINXPATH}/upstreams.conf" "${NGINXPATH}/conf/upstreams.conf"
+    echo -e "\e[1;32mDone.\e[0m"
 fi
 
 if [ ! -f "$NGINXPATH/conf/nginx.conf" ]; then
@@ -89,10 +90,8 @@ if [ $SERVICE ] && [ $SERVICE == 'fpm' ]; then
     
     if [ $COMMAND == 'start' ]; then
         if [ $BDS == "0" ]; then
-            # parsuj upstreams.conf po wersje php
-            # parsuj conf/upstreams.conf po porty dla stream
-            PHPPATH="$NGINXPATH/php/php-$PHPVERSION"
-            start //B "" fpm "$PHPPATH" 9001 9002 9004 9005 9006 9007 9008 9008 9009 9012 9013
+            cd "$NGINXPATH/services/fpm"
+            start //B "" fpm "$NGINXPATH/php" "$NGINXPATH/upstreams.conf"
             echo -e "\e[1;34mFPM service started\e[0m"
         else
             echo -e "\e[1;30mFPM service is already up\e[0m"
