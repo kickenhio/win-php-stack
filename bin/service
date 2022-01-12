@@ -27,6 +27,30 @@ if [ ! -f "$NGINXPATH/conf/nginx.conf" ]; then
     echo -e "\e[1;32mDone.\e[0m"
 fi
 
+if [ $SERVICE ] && [ $SERVICE == 'reload' ]; then
+    NGX_PID=$(processing nginx)
+
+    if [ $NGX_PID != "0" ]; then
+        taskkill //IM "nginx.exe" //F
+    fi
+    
+    "$NGINXPATH/services/nginx/upstream.exe" "${NGINXPATH}/upstreams.conf" "${NGINXPATH}/conf/upstreams.conf"
+
+    if [ $NGX_PID != "0" ]; then
+        service nginx start
+    fi
+         
+    BDS_PID=$(processing biedis)
+    if [ $BDS_PID != "0" ]; then
+        service redis restart
+    fi
+    
+    FPM_PID=$(processing fpm)
+    if [ $FPM_PID != "0" ]; then
+        service fpm restart
+    fi
+fi
+
 if [ $SERVICE ] && [ $SERVICE == 'nginx' ]; then
     if [ $COMMAND ]; then
         cd "$NGINXPATH"
