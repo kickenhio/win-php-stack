@@ -1,5 +1,0 @@
-#!/bin/bash
-NGINXPATH="$(dirname "$0")"
-NGINXPATH=${NGINXPATH%\/bin*}
-
-echo $NGINXPATH
