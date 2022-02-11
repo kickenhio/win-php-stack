@@ -1,0 +1,5 @@
+#!/bin/bash
+NGINXPATH="$(dirname "$0")"
+NGINXPATH=${NGINXPATH%\/bin*}
+
+"$NGINXPATH/php/7.4.2/php.exe" "$NGINXPATH/composer/composer.phar" "${@:1}"
