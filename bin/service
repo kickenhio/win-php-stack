@@ -88,23 +88,24 @@ if [ $SERVICE ] && [ $SERVICE == 'nginx' ]; then
 fi
 
 if [ $SERVICE ] && [ $SERVICE == 'redis' ]; then
-    BDS=$(processing biedis)
+    BDS=$(processing redis)
     if [ $COMMAND == 'start' ]; then
         if [ $BDS == "0" ]; then
-            start //B "" biedis
-            echo -e "\e[1;34mbiedis service started\e[0m"
+            cd "$NGINXPATH/services/biedis"
+            start //B "" redis
+            echo -e "\e[1;34mredis service started\e[0m"
         else
-            echo -e "\e[1;30mbiedis service is already up\e[0m"
+            echo -e "\e[1;30mredis service is already up\e[0m"
         fi
     elif [ $COMMAND == 'restart' ]; then
         service redis stop
         service redis start
     elif [ $COMMAND == 'stop' ]; then
         if [ $BDS == "0" ]; then
-            echo -e "\e[1;30mbiedis service cant be reload as its not running :)\e[0m"
+            echo -e "\e[1;30mredis service cant be reload as its not running :)\e[0m"
         else
-            taskkill //IM "biedis.exe" //F
-            echo -e "\e[1;31mbiedis service stopped\e[0m"
+            taskkill //IM "redis.exe" //F
+            echo -e "\e[1;31mredis service stopped\e[0m"
         fi
     fi
 fi
